@@ -11,7 +11,6 @@ import math
 
 
 
-
 class SafetyNode(Node):
     def __init__(self):
         super().__init__("safety_node")
@@ -69,7 +68,7 @@ class SafetyNode(Node):
         msg = AckermannDriveStamped()
 
         msg.header = Header()
-        msg.header.stamp = self.get_clock().now().to_msg()  
+        msg.header.stamp = self.get_clock().now().to_msg() 
         msg.header.frame_id = 'base_link'
 
         drive_msg = AckermannDrive()
