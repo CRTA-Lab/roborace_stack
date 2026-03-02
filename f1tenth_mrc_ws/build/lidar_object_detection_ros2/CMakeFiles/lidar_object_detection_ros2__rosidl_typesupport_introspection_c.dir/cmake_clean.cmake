@@ -1,0 +1,24 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/l_shape__type_support.c.o"
+  "CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/object__type_support.c.o"
+  "CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/objects_array__type_support.c.o"
+  "CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/pose2_d__type_support.c.o"
+  "CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/scan_clusters__type_support.c.o"
+  "liblidar_object_detection_ros2__rosidl_typesupport_introspection_c.pdb"
+  "liblidar_object_detection_ros2__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/l_shape__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/l_shape__type_support.c"
+  "rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/object__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/object__type_support.c"
+  "rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/objects_array__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/objects_array__type_support.c"
+  "rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/pose2_d__type_support.c"
+  "rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/scan_clusters__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/scan_clusters__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

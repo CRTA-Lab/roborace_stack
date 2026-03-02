@@ -1,0 +1,24 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/l_shape__type_support_c.cpp.o"
+  "CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/object__type_support_c.cpp.o"
+  "CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/objects_array__type_support_c.cpp.o"
+  "CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/pose2_d__type_support_c.cpp.o"
+  "CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/scan_clusters__type_support_c.cpp.o"
+  "liblidar_object_detection_ros2__rosidl_typesupport_fastrtps_c.pdb"
+  "liblidar_object_detection_ros2__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/l_shape__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/l_shape__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/object__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/object__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/objects_array__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/objects_array__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/pose2_d__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/scan_clusters__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/scan_clusters__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

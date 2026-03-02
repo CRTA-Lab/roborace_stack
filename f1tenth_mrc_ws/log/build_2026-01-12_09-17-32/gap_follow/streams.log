@@ -1,0 +1,26 @@
+[2.644s] Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger:/home/f1tenth/f1tenth_mrc_ws/install/rrt_package:/home/f1tenth/f1tenth_mrc_ws/install/ppo_racing:/home/f1tenth/f1tenth_mrc_ws/install/particle_filter:/home/f1tenth/f1tenth_mrc_ws/install/f1tenth_gym_ros:/home/f1tenth/f1tenth_mrc_ws/install/camera_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_mrc_ws/build/gap_follow -- -j4 -l4
+[2.945s] Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger:/home/f1tenth/f1tenth_mrc_ws/install/rrt_package:/home/f1tenth/f1tenth_mrc_ws/install/ppo_racing:/home/f1tenth/f1tenth_mrc_ws/install/particle_filter:/home/f1tenth/f1tenth_mrc_ws/install/f1tenth_gym_ros:/home/f1tenth/f1tenth_mrc_ws/install/camera_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_mrc_ws/build/gap_follow -- -j4 -l4
+[3.077s] Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger:/home/f1tenth/f1tenth_mrc_ws/install/rrt_package:/home/f1tenth/f1tenth_mrc_ws/install/ppo_racing:/home/f1tenth/f1tenth_mrc_ws/install/particle_filter:/home/f1tenth/f1tenth_mrc_ws/install/f1tenth_gym_ros:/home/f1tenth/f1tenth_mrc_ws/install/camera_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_mrc_ws/build/gap_follow
+[3.170s] -- Install configuration: ""
+[3.171s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/share/gap_follow/environment/pythonpath.sh
+[3.171s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/share/gap_follow/environment/pythonpath.dsv
+[3.172s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow
+[3.172s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow/__init__.py
+[3.353s] Listing '/home/f1tenth/f1tenth_mrc_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow'...
+[3.370s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/lib/gap_follow/reactive_node.py
+[3.370s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/share/ament_index/resource_index/package_run_dependencies/gap_follow
+[3.371s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/share/ament_index/resource_index/parent_prefix_path/gap_follow
+[3.371s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.sh
+[3.372s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.dsv
+[3.372s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/share/gap_follow/environment/path.sh
+[3.373s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/share/gap_follow/environment/path.dsv
+[3.373s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/share/gap_follow/local_setup.bash
+[3.374s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/share/gap_follow/local_setup.sh
+[3.374s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/share/gap_follow/local_setup.zsh
+[3.375s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/share/gap_follow/local_setup.dsv
+[3.375s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/share/gap_follow/package.dsv
+[3.375s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/share/ament_index/resource_index/packages/gap_follow
+[3.377s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig.cmake
+[3.377s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig-version.cmake
+[3.377s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/gap_follow/share/gap_follow/package.xml
+[3.398s] Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger:/home/f1tenth/f1tenth_mrc_ws/install/rrt_package:/home/f1tenth/f1tenth_mrc_ws/install/ppo_racing:/home/f1tenth/f1tenth_mrc_ws/install/particle_filter:/home/f1tenth/f1tenth_mrc_ws/install/f1tenth_gym_ros:/home/f1tenth/f1tenth_mrc_ws/install/camera_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_mrc_ws/build/gap_follow

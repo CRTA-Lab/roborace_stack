@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "lidar_object_detection_ros2__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2/lidar_object_detection_ros2__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "lidar_object_detection_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_object_detection_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_object_detection_ros2-ad96ee99bf9e4ee614e2.json",
+					"name" : "lidar_object_detection_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_object_detection_ros2__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_object_detection_ros2__cpp-fc7b8ff225d9b88c5057.json",
+					"name" : "lidar_object_detection_ros2__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lidar_object_detection_ros2__py::@5afdfebead0fa23c0e60",
+					"jsonFile" : "target-lidar_object_detection_ros2__py-047ff16cc47ed6943ab8.json",
+					"name" : "lidar_object_detection_ros2__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_object_detection_ros2__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_object_detection_ros2__python-6520a9b3f550911916ca.json",
+					"name" : "lidar_object_detection_ros2__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_object_detection_ros2__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_object_detection_ros2__rosidl_generator_c-acf895ea4f77d43c392b.json",
+					"name" : "lidar_object_detection_ros2__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_object_detection_ros2__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_object_detection_ros2__rosidl_typesupport_c-c8d40185ed8363930479.json",
+					"name" : "lidar_object_detection_ros2__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_object_detection_ros2__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_object_detection_ros2__rosidl_typesupport_c__pyext-6cf85f63ea30748c013f.json",
+					"name" : "lidar_object_detection_ros2__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_object_detection_ros2__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_object_detection_ros2__rosidl_typesupport_cpp-a843f014ddad5326db27.json",
+					"name" : "lidar_object_detection_ros2__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c-0d11e84569caf6fab79a.json",
+					"name" : "lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c__pyext-b44e7a615e4d01c5b30b.json",
+					"name" : "lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_object_detection_ros2__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_object_detection_ros2__rosidl_typesupport_fastrtps_cpp-7e231a9ff54c853ff689.json",
+					"name" : "lidar_object_detection_ros2__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_object_detection_ros2__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_object_detection_ros2__rosidl_typesupport_introspection_c-793ed1e98471eedb662f.json",
+					"name" : "lidar_object_detection_ros2__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_object_detection_ros2__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_object_detection_ros2__rosidl_typesupport_introspection_c__pyext-e1ff1cc16e411eef94f1.json",
+					"name" : "lidar_object_detection_ros2__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_object_detection_ros2__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_object_detection_ros2__rosidl_typesupport_introspection_cpp-9a41dac01b6d9d1987ff.json",
+					"name" : "lidar_object_detection_ros2__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_object_detection_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_object_detection_ros2_uninstall-1714fc47e6c92fd1b513.json",
+					"name" : "lidar_object_detection_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-55d60e7ebb9ad8329453.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2",
+		"source" : "/home/f1tenth/f1tenth_mrc_ws/src/lidar_pose_estimation/lidar_object_detection_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

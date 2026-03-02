@@ -1,0 +1,6 @@
+Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth_mrc_ws/src/f1tenth_lab6_template/pure_pursuit -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_mrc_ws/install/pure_pursuit
+Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth_mrc_ws/src/f1tenth_lab6_template/pure_pursuit -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_mrc_ws/install/pure_pursuit
+Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_mrc_ws/build/pure_pursuit -- -j4 -l4
+Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_mrc_ws/build/pure_pursuit -- -j4 -l4
+Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_mrc_ws/build/pure_pursuit
+Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_mrc_ws/build/pure_pursuit

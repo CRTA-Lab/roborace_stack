@@ -1,0 +1,322 @@
+[0.000000] (-) TimerEvent: {}
+[0.001117] (-) JobUnselected: {'identifier': 'camera_pkg'}
+[0.002135] (-) JobUnselected: {'identifier': 'f1tenth_gym_ros'}
+[0.002315] (-) JobUnselected: {'identifier': 'gap_follow'}
+[0.002463] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.002545] (-) JobUnselected: {'identifier': 'ppo_racing'}
+[0.002624] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.002781] (-) JobUnselected: {'identifier': 'rrt_package'}
+[0.002876] (-) JobUnselected: {'identifier': 'safety_node'}
+[0.002954] (-) JobUnselected: {'identifier': 'wall_follow'}
+[0.003030] (-) JobUnselected: {'identifier': 'waypoint_logger'}
+[0.003117] (lidar_object_detection_ros2) JobQueued: {'identifier': 'lidar_object_detection_ros2', 'dependencies': OrderedDict()}
+[0.003219] (lidar_object_detection_ros2) JobStarted: {'identifier': 'lidar_object_detection_ros2'}
+[0.047623] (lidar_object_detection_ros2) JobProgress: {'identifier': 'lidar_object_detection_ros2', 'progress': 'cmake'}
+[0.052492] (lidar_object_detection_ros2) JobProgress: {'identifier': 'lidar_object_detection_ros2', 'progress': 'build'}
+[0.055935] (lidar_object_detection_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2', '--', '-j4', '-l4'], 'cwd': '/home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('LC_TIME', 'bs_BA.UTF-8'), ('SSH_AGENT_PID', '2559'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/f1tenth'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.1.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('LC_MONETARY', 'bs_BA.UTF-8'), ('MANAGERPID', '2451'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4630'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422420033521'), ('JOURNAL_STREAM', '7:53497'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/f1tenth-desktop:@/tmp/.ICE-unix/2594,unix/f1tenth-desktop:/tmp/.ICE-unix/2594'), ('INVOCATION_ID', '3aba7b854b034bffaaa34db9cc1ac94a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bs_BA.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'bs_BA.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '6'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bs_BA.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:55f9ab29-9b2e-4867-bca6-5787051b2f9e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bs_BA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'bs_BA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'bs_BA.UTF-8'), ('LC_PAPER', 'bs_BA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.0.2 GA'), ('JETSON_P_NUMBER', 'p3668-0000'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099170] (-) TimerEvent: {}
+[0.200331] (-) TimerEvent: {}
+[0.268192] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.303789] (-) TimerEvent: {}
+[0.387126] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.387746] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.404018] (-) TimerEvent: {}
+[0.504788] (-) TimerEvent: {}
+[0.605610] (-) TimerEvent: {}
+[0.706394] (-) TimerEvent: {}
+[0.807214] (-) TimerEvent: {}
+[0.907938] (-) TimerEvent: {}
+[1.008781] (-) TimerEvent: {}
+[1.109639] (-) TimerEvent: {}
+[1.183590] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[1.184826] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[1.209900] (-) TimerEvent: {}
+[1.294514] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.310179] (-) TimerEvent: {}
+[1.322688] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.410401] (-) TimerEvent: {}
+[1.511424] (-) TimerEvent: {}
+[1.612344] (-) TimerEvent: {}
+[1.713458] (-) TimerEvent: {}
+[1.814493] (-) TimerEvent: {}
+[1.836369] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.914792] (-) TimerEvent: {}
+[2.015792] (-) TimerEvent: {}
+[2.025415] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[2.116051] (-) TimerEvent: {}
+[2.162098] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.216280] (-) TimerEvent: {}
+[2.317177] (-) TimerEvent: {}
+[2.400526] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.417425] (-) TimerEvent: {}
+[2.518231] (-) TimerEvent: {}
+[2.533763] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.618437] (-) TimerEvent: {}
+[2.719278] (-) TimerEvent: {}
+[2.820022] (-) TimerEvent: {}
+[2.920948] (-) TimerEvent: {}
+[3.021882] (-) TimerEvent: {}
+[3.122745] (-) TimerEvent: {}
+[3.223622] (-) TimerEvent: {}
+[3.324575] (-) TimerEvent: {}
+[3.425461] (-) TimerEvent: {}
+[3.449862] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[3.525701] (-) TimerEvent: {}
+[3.626633] (-) TimerEvent: {}
+[3.727586] (-) TimerEvent: {}
+[3.828474] (-) TimerEvent: {}
+[3.929462] (-) TimerEvent: {}
+[4.030434] (-) TimerEvent: {}
+[4.131477] (-) TimerEvent: {}
+[4.232441] (-) TimerEvent: {}
+[4.333425] (-) TimerEvent: {}
+[4.434383] (-) TimerEvent: {}
+[4.533484] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.534496] (-) TimerEvent: {}
+[4.635352] (-) TimerEvent: {}
+[4.736342] (-) TimerEvent: {}
+[4.837352] (-) TimerEvent: {}
+[4.938223] (-) TimerEvent: {}
+[5.039336] (-) TimerEvent: {}
+[5.075544] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.139549] (-) TimerEvent: {}
+[5.172584] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[5.174950] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[5.239757] (-) TimerEvent: {}
+[5.269535] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.270268] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[5.270689] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[5.339987] (-) TimerEvent: {}
+[5.440844] (-) TimerEvent: {}
+[5.506611] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.541052] (-) TimerEvent: {}
+[5.573778] (lidar_object_detection_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.579198] (lidar_object_detection_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.582292] (lidar_object_detection_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[5.599673] (lidar_object_detection_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.620855] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.641293] (-) TimerEvent: {}
+[5.742132] (-) TimerEvent: {}
+[5.842948] (-) TimerEvent: {}
+[5.943909] (-) TimerEvent: {}
+[6.027290] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[6.044109] (-) TimerEvent: {}
+[6.122522] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2\n'}
+[6.144322] (-) TimerEvent: {}
+[6.245226] (-) TimerEvent: {}
+[6.285044] (lidar_object_detection_ros2) StdoutLine: {'line': b'[  1%] Built target lidar_object_detection_ros2__cpp\n'}
+[6.302348] (lidar_object_detection_ros2) StdoutLine: {'line': b'[ 12%] Built target lidar_object_detection_ros2__rosidl_generator_c\n'}
+[6.345508] (-) TimerEvent: {}
+[6.410100] (lidar_object_detection_ros2) StdoutLine: {'line': b'[ 34%] Built target lidar_object_detection_ros2__rosidl_typesupport_cpp\n'}
+[6.411378] (lidar_object_detection_ros2) StdoutLine: {'line': b'[ 34%] Built target lidar_object_detection_ros2__rosidl_typesupport_introspection_cpp\n'}
+[6.418205] (lidar_object_detection_ros2) StdoutLine: {'line': b'[ 46%] Built target lidar_object_detection_ros2__rosidl_typesupport_fastrtps_cpp\n'}
+[6.427391] (lidar_object_detection_ros2) StdoutLine: {'line': b'[ 57%] Built target lidar_object_detection_ros2__rosidl_typesupport_introspection_c\n'}
+[6.445771] (-) TimerEvent: {}
+[6.519840] (lidar_object_detection_ros2) StdoutLine: {'line': b'[ 68%] Built target lidar_object_detection_ros2__rosidl_typesupport_c\n'}
+[6.545967] (-) TimerEvent: {}
+[6.546906] (lidar_object_detection_ros2) StdoutLine: {'line': b'[ 79%] Built target lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c\n'}
+[6.635041] (lidar_object_detection_ros2) StdoutLine: {'line': b'[ 79%] Built target lidar_object_detection_ros2\n'}
+[6.646191] (-) TimerEvent: {}
+[6.727641] (lidar_object_detection_ros2) StdoutLine: {'line': b'[ 80%] Built target lidar_object_detection_ros2__py\n'}
+[6.746855] (-) TimerEvent: {}
+[6.848034] (-) TimerEvent: {}
+[6.868094] (lidar_object_detection_ros2) StdoutLine: {'line': b'[ 90%] Built target lidar_object_detection_ros2__python\n'}
+[6.948288] (-) TimerEvent: {}
+[6.981363] (lidar_object_detection_ros2) StdoutLine: {'line': b'[ 93%] Built target lidar_object_detection_ros2__rosidl_typesupport_c__pyext\n'}
+[6.984864] (lidar_object_detection_ros2) StdoutLine: {'line': b'[ 96%] Built target lidar_object_detection_ros2__rosidl_typesupport_introspection_c__pyext\n'}
+[6.985669] (lidar_object_detection_ros2) StdoutLine: {'line': b'[100%] Built target lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.035006] (lidar_object_detection_ros2) CommandEnded: {'returncode': 0}
+[7.040554] (lidar_object_detection_ros2) JobProgress: {'identifier': 'lidar_object_detection_ros2', 'progress': 'install'}
+[7.048894] (-) TimerEvent: {}
+[7.095005] (lidar_object_detection_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2'], 'cwd': '/home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('LC_TIME', 'bs_BA.UTF-8'), ('SSH_AGENT_PID', '2559'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/f1tenth'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.1.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('LC_MONETARY', 'bs_BA.UTF-8'), ('MANAGERPID', '2451'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4630'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422420033521'), ('JOURNAL_STREAM', '7:53497'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/f1tenth-desktop:@/tmp/.ICE-unix/2594,unix/f1tenth-desktop:/tmp/.ICE-unix/2594'), ('INVOCATION_ID', '3aba7b854b034bffaaa34db9cc1ac94a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bs_BA.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'bs_BA.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '6'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bs_BA.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:55f9ab29-9b2e-4867-bca6-5787051b2f9e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bs_BA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'bs_BA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'bs_BA.UTF-8'), ('LC_PAPER', 'bs_BA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.0.2 GA'), ('JETSON_P_NUMBER', 'p3668-0000'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[7.129874] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.131162] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/ament_index/resource_index/rosidl_interfaces/lidar_object_detection_ros2\n'}
+[7.131896] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2\n'}
+[7.132452] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg\n'}
+[7.133173] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.133576] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/objects_array.h\n'}
+[7.134100] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/object.h\n'}
+[7.134827] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/pose2_d.h\n'}
+[7.135227] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/scan_clusters.h\n'}
+[7.135921] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail\n'}
+[7.136237] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__type_support.h\n'}
+[7.136558] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__type_support.h\n'}
+[7.136886] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__functions.h\n'}
+[7.137173] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__functions.h\n'}
+[7.137491] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__type_support.h\n'}
+[7.137789] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__functions.h\n'}
+[7.138065] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__struct.h\n'}
+[7.138338] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__functions.h\n'}
+[7.138624] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__struct.h\n'}
+[7.139002] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__functions.h\n'}
+[7.139277] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__functions.c\n'}
+[7.139542] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__functions.c\n'}
+[7.139837] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__functions.c\n'}
+[7.140134] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__struct.h\n'}
+[7.140412] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__struct.h\n'}
+[7.141104] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__struct.h\n'}
+[7.141367] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__type_support.h\n'}
+[7.141766] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__type_support.h\n'}
+[7.142300] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__functions.c\n'}
+[7.142614] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__functions.c\n'}
+[7.143211] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/l_shape.h\n'}
+[7.143475] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/environment/library_path.sh\n'}
+[7.143725] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/environment/library_path.dsv\n'}
+[7.144149] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_generator_c.so\n'}
+[7.144417] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2\n'}
+[7.144664] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg\n'}
+[7.145031] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.145399] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail\n'}
+[7.145646] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__rosidl_typesupport_fastrtps_c.h\n'}
+[7.145897] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[7.146384] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__rosidl_typesupport_fastrtps_c.h\n'}
+[7.146682] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__rosidl_typesupport_fastrtps_c.h\n'}
+[7.147390] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__rosidl_typesupport_fastrtps_c.h\n'}
+[7.147966] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_typesupport_fastrtps_c.so\n'}
+[7.148253] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2\n'}
+[7.148500] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg\n'}
+[7.148738] (-) TimerEvent: {}
+[7.149409] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail\n'}
+[7.149679] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.150115] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.150375] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.150656] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.151001] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.151452] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/dds_fastrtps\n'}
+[7.151949] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.152237] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.152488] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2\n'}
+[7.152759] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg\n'}
+[7.153387] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.153730] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail\n'}
+[7.154013] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h\n'}
+[7.154293] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__type_support.c\n'}
+[7.154601] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__type_support.c\n'}
+[7.155296] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__rosidl_typesupport_introspection_c.h\n'}
+[7.155621] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__rosidl_typesupport_introspection_c.h\n'}
+[7.155870] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__rosidl_typesupport_introspection_c.h\n'}
+[7.156124] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__type_support.c\n'}
+[7.156519] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__rosidl_typesupport_introspection_c.h\n'}
+[7.156796] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__type_support.c\n'}
+[7.157066] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__type_support.c\n'}
+[7.157309] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_typesupport_introspection_c.so\n'}
+[7.158897] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_typesupport_c.so\n'}
+[7.160788] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2\n'}
+[7.161520] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg\n'}
+[7.161860] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/object.hpp\n'}
+[7.162174] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/pose2_d.hpp\n'}
+[7.162456] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/l_shape.hpp\n'}
+[7.163141] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/objects_array.hpp\n'}
+[7.163900] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail\n'}
+[7.164220] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__traits.hpp\n'}
+[7.164727] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__traits.hpp\n'}
+[7.165068] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__traits.hpp\n'}
+[7.165601] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__struct.hpp\n'}
+[7.165915] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__builder.hpp\n'}
+[7.166191] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__builder.hpp\n'}
+[7.166499] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__traits.hpp\n'}
+[7.166853] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__builder.hpp\n'}
+[7.167134] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__struct.hpp\n'}
+[7.167413] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__type_support.hpp\n'}
+[7.167732] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__type_support.hpp\n'}
+[7.168077] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__struct.hpp\n'}
+[7.168361] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__traits.hpp\n'}
+[7.168945] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__builder.hpp\n'}
+[7.169219] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__struct.hpp\n'}
+[7.169539] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__type_support.hpp\n'}
+[7.169786] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__builder.hpp\n'}
+[7.170045] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__type_support.hpp\n'}
+[7.170298] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__type_support.hpp\n'}
+[7.170580] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__struct.hpp\n'}
+[7.170917] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/scan_clusters.hpp\n'}
+[7.171343] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.171637] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2\n'}
+[7.171888] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg\n'}
+[7.172223] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail\n'}
+[7.172499] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.172785] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.173316] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__type_support.cpp\n'}
+[7.173635] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__type_support.cpp\n'}
+[7.173923] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.174170] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.174454] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__type_support.cpp\n'}
+[7.174795] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__type_support.cpp\n'}
+[7.175141] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__type_support.cpp\n'}
+[7.176370] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.176711] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_typesupport_introspection_cpp.so\n'}
+[7.177822] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_typesupport_cpp.so\n'}
+[7.178289] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/environment/pythonpath.sh\n'}
+[7.178580] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/environment/pythonpath.dsv\n'}
+[7.178905] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/__init__.py\n'}
+[7.248981] (-) TimerEvent: {}
+[7.286512] (lidar_object_detection_ros2) StdoutLine: {'line': b"Compiling '/home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/__init__.py'...\n"}
+[7.301535] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg\n'}
+[7.302264] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_object_s.c\n'}
+[7.303435] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_pose2_d_s.c\n'}
+[7.304077] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_object.py\n'}
+[7.304360] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_objects_array.py\n'}
+[7.304667] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_pose2_d.py\n'}
+[7.304939] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_scan_clusters_s.c\n'}
+[7.305393] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_objects_array_s.c\n'}
+[7.305822] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_l_shape_s.c\n'}
+[7.306237] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_scan_clusters.py\n'}
+[7.306677] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_l_shape.py\n'}
+[7.307409] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/__init__.py\n'}
+[7.307694] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/lidar_object_detection_ros2_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.311364] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/lidar_object_detection_ros2_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.316665] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/lidar_object_detection_ros2_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.321079] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__python.so\n'}
+[7.323156] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/Pose2D.idl\n'}
+[7.323815] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/LShape.idl\n'}
+[7.324473] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/Object.idl\n'}
+[7.325733] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/ObjectsArray.idl\n'}
+[7.327000] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/ScanClusters.idl\n'}
+[7.327681] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/Pose2D.msg\n'}
+[7.328003] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/LShape.msg\n'}
+[7.328532] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/Object.msg\n'}
+[7.328814] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/ObjectsArray.msg\n'}
+[7.329077] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/ScanClusters.msg\n'}
+[7.329575] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/lidar_object_detection_ros2/lidar_object_detection.py\n'}
+[7.329954] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/lidar_object_detection_ros2/lod_visualization.py\n'}
+[7.330328] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/lidar_object_detection_ros2/UKF_fusion.py\n'}
+[7.330889] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/lidar_object_detection_ros2/pose_estimation_UKF.py\n'}
+[7.331605] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2//launch\n'}
+[7.331971] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2//launch/lod_launch.py\n'}
+[7.332573] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/ament_index/resource_index/package_run_dependencies/lidar_object_detection_ros2\n'}
+[7.332941] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/ament_index/resource_index/parent_prefix_path/lidar_object_detection_ros2\n'}
+[7.333590] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/environment/ament_prefix_path.sh\n'}
+[7.333973] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/environment/ament_prefix_path.dsv\n'}
+[7.334469] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/environment/path.sh\n'}
+[7.335545] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/environment/path.dsv\n'}
+[7.336043] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/local_setup.bash\n'}
+[7.336399] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/local_setup.sh\n'}
+[7.337338] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/local_setup.zsh\n'}
+[7.337642] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/local_setup.dsv\n'}
+[7.338119] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/package.dsv\n'}
+[7.339381] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/ament_index/resource_index/packages/lidar_object_detection_ros2\n'}
+[7.340970] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_generator_cExport.cmake\n'}
+[7.341517] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.342559] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.343074] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.344554] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_typesupport_cExport.cmake\n'}
+[7.345127] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.346393] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_generator_cppExport.cmake\n'}
+[7.347593] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.348136] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.349101] (-) TimerEvent: {}
+[7.349748] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_typesupport_cppExport.cmake\n'}
+[7.350218] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.350653] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/rosidl_cmake-extras.cmake\n'}
+[7.351322] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.351643] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.352294] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.352672] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.353241] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.353690] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.353977] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2Config.cmake\n'}
+[7.354225] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2Config-version.cmake\n'}
+[7.354507] (lidar_object_detection_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/package.xml\n'}
+[7.363971] (lidar_object_detection_ros2) CommandEnded: {'returncode': 0}
+[7.450033] (-) TimerEvent: {}
+[7.480200] (lidar_object_detection_ros2) JobEnded: {'identifier': 'lidar_object_detection_ros2', 'rc': 0}
+[7.482966] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+[console_scripts]
+opp_pose_to_odom = ppo_racing.opp_pose_to_odom:main
+policy_node = ppo_racing.policy_node:main
+policy_node_local_obs = ppo_racing.policy_node_local_obs:main
+test_logger = ppo_racing.test_logger:main
+

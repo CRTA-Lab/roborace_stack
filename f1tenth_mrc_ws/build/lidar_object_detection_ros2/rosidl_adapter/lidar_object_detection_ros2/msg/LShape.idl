@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from lidar_object_detection_ros2/msg/LShape.msg
+// generated code does not contain a copyright notice
+
+#include "lidar_object_detection_ros2/msg/Pose2D.idl"
+
+module lidar_object_detection_ros2 {
+  module msg {
+    struct LShape {
+      lidar_object_detection_ros2::msg::Pose2D c1;
+
+      float theta;
+
+      float l1;
+
+      float l2;
+    };
+  };
+};

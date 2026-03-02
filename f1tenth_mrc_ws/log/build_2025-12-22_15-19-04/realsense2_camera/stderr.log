@@ -1,0 +1,27 @@
+CMake Error at CMakeLists.txt:236 (add_library):
+  Target "realsense2_camera" links to target "cv_bridge::cv_bridge" but the
+  target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+
+CMake Error at CMakeLists.txt:236 (add_library):
+  Target "realsense2_camera" links to target
+  "image_transport::image_transport" but the target was not found.  Perhaps a
+  find_package() call is missing for an IMPORTED target, or an ALIAS target
+  is missing?
+
+
+CMake Error at CMakeLists.txt:236 (add_library):
+  Target "realsense2_camera" links to target "rclcpp_components::component"
+  but the target was not found.  Perhaps a find_package() call is missing for
+  an IMPORTED target, or an ALIAS target is missing?
+
+
+CMake Error at CMakeLists.txt:236 (add_library):
+  Target "realsense2_camera" links to target
+  "sensor_msgs::sensor_msgs_library" but the target was not found.  Perhaps a
+  find_package() call is missing for an IMPORTED target, or an ALIAS target
+  is missing?
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

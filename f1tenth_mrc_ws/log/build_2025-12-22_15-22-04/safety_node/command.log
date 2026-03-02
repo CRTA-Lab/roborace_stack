@@ -1,0 +1,4 @@
+Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/safety_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_mrc_ws/build/safety_node -- -j4 -l4
+Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_mrc_ws/build/safety_node -- -j4 -l4
+Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/safety_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_mrc_ws/build/safety_node
+Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_mrc_ws/build/safety_node

@@ -1,0 +1,76 @@
+[0.138s] Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/safety_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth_mrc_ws/src/f1tenth_lab2_template/safety_node -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_mrc_ws/install/safety_node
+[0.813s] -- The C compiler identification is GNU 9.4.0
+[1.313s] -- The CXX compiler identification is GNU 9.4.0
+[1.362s] -- Check for working C compiler: /usr/bin/cc
+[2.136s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.142s] -- Detecting C compiler ABI info
+[2.930s] -- Detecting C compiler ABI info - done
+[3.059s] -- Detecting C compile features
+[3.064s] -- Detecting C compile features - done
+[3.092s] -- Check for working CXX compiler: /usr/bin/c++
+[4.125s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.136s] -- Detecting CXX compiler ABI info
+[5.039s] -- Detecting CXX compiler ABI info - done
+[5.185s] -- Detecting CXX compile features
+[5.187s] -- Detecting CXX compile features - done
+[5.210s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.435s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.436s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.405s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[7.905s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.953s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.899s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.190s] -- Found FastRTPS: /opt/ros/foxy/include  
+[10.105s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.609s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.634s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.638s] -- Looking for pthread.h
+[11.629s] -- Looking for pthread.h - found
+[11.630s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.522s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[12.524s] -- Looking for pthread_create in pthreads
+[13.237s] -- Looking for pthread_create in pthreads - not found
+[13.242s] -- Looking for pthread_create in pthread
+[14.229s] -- Looking for pthread_create in pthread - found
+[14.243s] -- Found Threads: TRUE  
+[15.801s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[15.822s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[16.582s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[16.938s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[17.605s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[18.296s] -- Added test 'copyright' to check source files copyright and LICENSE
+[18.310s] -- Added test 'flake8' to check Python code syntax and style conventions
+[18.316s] -- Added test 'lint_cmake' to check CMake code style
+[18.321s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[18.328s] -- Added test 'xmllint' to check XML markup files
+[18.356s] -- Configuring done
+[18.369s] -- Generating done
+[18.383s] -- Build files have been written to: /home/f1tenth/f1tenth_mrc_ws/build/safety_node
+[19.532s] Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth_mrc_ws/src/f1tenth_lab2_template/safety_node -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_mrc_ws/install/safety_node
+[19.551s] Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/safety_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_mrc_ws/build/safety_node -- -j4 -l4
+[20.000s] Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_mrc_ws/build/safety_node -- -j4 -l4
+[20.014s] Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/safety_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_mrc_ws/build/safety_node
+[20.122s] -- Install configuration: ""
+[20.123s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/share/safety_node/environment/pythonpath.sh
+[20.124s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/share/safety_node/environment/pythonpath.dsv
+[20.125s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/lib/python3.8/site-packages/safety_node
+[20.126s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/lib/python3.8/site-packages/safety_node/__init__.py
+[20.577s] Listing '/home/f1tenth/f1tenth_mrc_ws/install/safety_node/lib/python3.8/site-packages/safety_node'...
+[20.577s] Compiling '/home/f1tenth/f1tenth_mrc_ws/install/safety_node/lib/python3.8/site-packages/safety_node/__init__.py'...
+[20.621s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/lib/safety_node/safety_node.py
+[20.622s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/share/ament_index/resource_index/package_run_dependencies/safety_node
+[20.623s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/share/ament_index/resource_index/parent_prefix_path/safety_node
+[20.623s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.sh
+[20.624s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.dsv
+[20.625s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/share/safety_node/environment/path.sh
+[20.626s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/share/safety_node/environment/path.dsv
+[20.627s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/share/safety_node/local_setup.bash
+[20.627s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/share/safety_node/local_setup.sh
+[20.628s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/share/safety_node/local_setup.zsh
+[20.630s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/share/safety_node/local_setup.dsv
+[20.631s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/share/safety_node/package.dsv
+[20.631s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/share/ament_index/resource_index/packages/safety_node
+[20.634s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig.cmake
+[20.638s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig-version.cmake
+[20.639s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/safety_node/share/safety_node/package.xml
+[20.655s] Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_mrc_ws/build/safety_node

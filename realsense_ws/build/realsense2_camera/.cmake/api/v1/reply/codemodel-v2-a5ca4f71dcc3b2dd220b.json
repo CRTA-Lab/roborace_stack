@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "realsense2_camera",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "realsense2_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realsense2_camera-Release-6a44d6bb25001ce75555.json",
+					"name" : "realsense2_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realsense2_camera_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realsense2_camera_node-Release-f53416940f94e6b9f3fd.json",
+					"name" : "realsense2_camera_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realsense2_camera_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realsense2_camera_uninstall-Release-701652951b02420fe5a6.json",
+					"name" : "realsense2_camera_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-430f4b291816400b0a2c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/f1tenth/realsense_ws/build/realsense2_camera",
+		"source" : "/home/f1tenth/realsense_ws/src/realsense-ros/realsense2_camera"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

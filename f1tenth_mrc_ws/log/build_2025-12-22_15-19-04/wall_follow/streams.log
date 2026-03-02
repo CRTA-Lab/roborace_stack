@@ -1,0 +1,77 @@
+[0.100s] Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/wall_follow': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth_mrc_ws/src/f1tenth_lab3_template/wall_follow -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_mrc_ws/install/wall_follow
+[0.792s] -- The C compiler identification is GNU 9.4.0
+[1.393s] -- The CXX compiler identification is GNU 9.4.0
+[1.453s] -- Check for working C compiler: /usr/bin/cc
+[2.388s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.399s] -- Detecting C compiler ABI info
+[3.061s] -- Detecting C compiler ABI info - done
+[3.174s] -- Detecting C compile features
+[3.189s] -- Detecting C compile features - done
+[3.220s] -- Check for working CXX compiler: /usr/bin/c++
+[4.192s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.203s] -- Detecting CXX compiler ABI info
+[5.211s] -- Detecting CXX compiler ABI info - done
+[5.350s] -- Detecting CXX compile features
+[5.359s] -- Detecting CXX compile features - done
+[5.386s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.629s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.631s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.945s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[8.316s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.365s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[9.125s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.402s] -- Found FastRTPS: /opt/ros/foxy/include  
+[10.281s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.914s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.925s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.945s] -- Looking for pthread.h
+[11.766s] -- Looking for pthread.h - found
+[11.770s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.434s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[12.436s] -- Looking for pthread_create in pthreads
+[13.071s] -- Looking for pthread_create in pthreads - not found
+[13.072s] -- Looking for pthread_create in pthread
+[13.831s] -- Looking for pthread_create in pthread - found
+[13.838s] -- Found Threads: TRUE  
+[15.295s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[15.316s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[15.627s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[16.115s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[16.272s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[16.776s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[17.168s] -- Added test 'copyright' to check source files copyright and LICENSE
+[17.179s] -- Added test 'flake8' to check Python code syntax and style conventions
+[17.182s] -- Added test 'lint_cmake' to check CMake code style
+[17.185s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[17.192s] -- Added test 'xmllint' to check XML markup files
+[17.214s] -- Configuring done
+[17.229s] -- Generating done
+[17.241s] -- Build files have been written to: /home/f1tenth/f1tenth_mrc_ws/build/wall_follow
+[17.296s] Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth_mrc_ws/src/f1tenth_lab3_template/wall_follow -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_mrc_ws/install/wall_follow
+[17.308s] Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/wall_follow': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_mrc_ws/build/wall_follow -- -j4 -l4
+[17.699s] Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_mrc_ws/build/wall_follow -- -j4 -l4
+[17.714s] Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/wall_follow': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_mrc_ws/build/wall_follow
+[17.813s] -- Install configuration: ""
+[17.814s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/share/wall_follow/environment/pythonpath.sh
+[17.815s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/share/wall_follow/environment/pythonpath.dsv
+[17.817s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow
+[17.817s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow/__init__.py
+[18.067s] Listing '/home/f1tenth/f1tenth_mrc_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow'...
+[18.067s] Compiling '/home/f1tenth/f1tenth_mrc_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow/__init__.py'...
+[18.084s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/lib/wall_follow/wall_follow_node.py
+[18.087s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/share/ament_index/resource_index/package_run_dependencies/wall_follow
+[18.088s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/share/ament_index/resource_index/parent_prefix_path/wall_follow
+[18.090s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.sh
+[18.091s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.dsv
+[18.091s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/share/wall_follow/environment/path.sh
+[18.092s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/share/wall_follow/environment/path.dsv
+[18.093s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/share/wall_follow/local_setup.bash
+[18.095s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/share/wall_follow/local_setup.sh
+[18.096s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/share/wall_follow/local_setup.zsh
+[18.102s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/share/wall_follow/local_setup.dsv
+[18.104s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/share/wall_follow/package.dsv
+[18.106s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/share/ament_index/resource_index/packages/wall_follow
+[18.107s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig.cmake
+[18.108s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig-version.cmake
+[18.109s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/wall_follow/share/wall_follow/package.xml
+[18.124s] Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_mrc_ws/build/wall_follow

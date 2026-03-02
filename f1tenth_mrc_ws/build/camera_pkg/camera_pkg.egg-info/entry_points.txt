@@ -1,0 +1,4 @@
+[console_scripts]
+opp_pose_estimator = camera_pkg.opp_pose_estimator:main
+static_camera_transform_publisher = camera_pkg.static_camera_transform_publisher:main
+

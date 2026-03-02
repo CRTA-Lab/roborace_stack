@@ -1,0 +1,57 @@
+[3.954s] Invoking command in '/home/f1tenth/f1tenth_mrc_ws/src/particle_filter': PYTHONPATH=/home/f1tenth/f1tenth_mrc_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_mrc_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/f1tenth/f1tenth_mrc_ws/build/particle_filter/build install --record /home/f1tenth/f1tenth_mrc_ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data
+[5.150s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.150s]   warnings.warn(
+[5.336s] running egg_info
+[5.339s] creating ../../build/particle_filter/particle_filter.egg-info
+[5.339s] writing ../../build/particle_filter/particle_filter.egg-info/PKG-INFO
+[5.340s] writing dependency_links to ../../build/particle_filter/particle_filter.egg-info/dependency_links.txt
+[5.341s] writing entry points to ../../build/particle_filter/particle_filter.egg-info/entry_points.txt
+[5.341s] writing requirements to ../../build/particle_filter/particle_filter.egg-info/requires.txt
+[5.342s] writing top-level names to ../../build/particle_filter/particle_filter.egg-info/top_level.txt
+[5.356s] writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[5.365s] reading manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[5.370s] writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[5.371s] running build
+[5.371s] running build_py
+[5.372s] creating /home/f1tenth/f1tenth_mrc_ws/build/particle_filter/build
+[5.372s] creating /home/f1tenth/f1tenth_mrc_ws/build/particle_filter/build/lib
+[5.373s] creating /home/f1tenth/f1tenth_mrc_ws/build/particle_filter/build/lib/particle_filter
+[5.373s] copying particle_filter/particle_filter.py -> /home/f1tenth/f1tenth_mrc_ws/build/particle_filter/build/lib/particle_filter
+[5.374s] copying particle_filter/utils.py -> /home/f1tenth/f1tenth_mrc_ws/build/particle_filter/build/lib/particle_filter
+[5.374s] copying particle_filter/__init__.py -> /home/f1tenth/f1tenth_mrc_ws/build/particle_filter/build/lib/particle_filter
+[5.374s] running install
+[5.377s] running install_lib
+[5.393s] creating /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter
+[5.393s] copying /home/f1tenth/f1tenth_mrc_ws/build/particle_filter/build/lib/particle_filter/particle_filter.py -> /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter
+[5.394s] copying /home/f1tenth/f1tenth_mrc_ws/build/particle_filter/build/lib/particle_filter/utils.py -> /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter
+[5.394s] copying /home/f1tenth/f1tenth_mrc_ws/build/particle_filter/build/lib/particle_filter/__init__.py -> /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter
+[5.397s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter/particle_filter.py to particle_filter.cpython-38.pyc
+[5.421s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter/utils.py to utils.cpython-38.pyc
+[5.427s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter/__init__.py to __init__.cpython-38.pyc
+[5.428s] running install_data
+[5.429s] creating /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/ament_index
+[5.429s] creating /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/ament_index/resource_index
+[5.430s] creating /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/ament_index/resource_index/packages
+[5.431s] copying resource/particle_filter -> /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/ament_index/resource_index/packages
+[5.431s] copying package.xml -> /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/particle_filter
+[5.431s] creating /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/particle_filter/maps
+[5.433s] copying maps/levine_obs.yaml -> /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/particle_filter/maps
+[5.433s] copying maps/levine_bit.yaml -> /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/particle_filter/maps
+[5.434s] copying maps/map_crta.yaml -> /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/particle_filter/maps
+[5.434s] copying maps/basement_fixed.png -> /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/particle_filter/maps
+[5.434s] copying maps/my_map.yaml -> /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/particle_filter/maps
+[5.434s] copying maps/levine_bit.pgm -> /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/particle_filter/maps
+[5.462s] copying maps/map_crta.pgm -> /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/particle_filter/maps
+[5.463s] copying maps/basement_fixed.map.yaml -> /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/particle_filter/maps
+[5.465s] copying maps/my_map.pgm -> /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/particle_filter/maps
+[5.467s] copying maps/levine_obs.png -> /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/particle_filter/maps
+[5.468s] creating /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/particle_filter/launch
+[5.468s] copying launch/localize_launch.py -> /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/particle_filter/launch
+[5.468s] creating /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/particle_filter/config
+[5.469s] copying config/localize.yaml -> /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/share/particle_filter/config
+[5.469s] running install_egg_info
+[5.486s] Copying ../../build/particle_filter/particle_filter.egg-info to /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info
+[5.493s] running install_scripts
+[5.626s] Installing particle_filter script to /home/f1tenth/f1tenth_mrc_ws/install/particle_filter/lib/particle_filter
+[5.627s] writing list of installed files to '/home/f1tenth/f1tenth_mrc_ws/build/particle_filter/install.log'
+[5.789s] Invoked command in '/home/f1tenth/f1tenth_mrc_ws/src/particle_filter' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_mrc_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_mrc_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/f1tenth/f1tenth_mrc_ws/build/particle_filter/build install --record /home/f1tenth/f1tenth_mrc_ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data

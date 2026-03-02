@@ -1,0 +1,47 @@
+[6.434s] Invoking command in '/home/f1tenth/f1tenth_mrc_ws/src/waypoint_logger': PYTHONPATH=/home/f1tenth/f1tenth_mrc_ws/build/waypoint_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waypoint_logger build --build-base /home/f1tenth/f1tenth_mrc_ws/build/waypoint_logger/build install --record /home/f1tenth/f1tenth_mrc_ws/build/waypoint_logger/install.log --install-scripts $base/lib/waypoint_logger --single-version-externally-managed install_data
+[8.048s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[8.049s]   warnings.warn(
+[8.203s] running egg_info
+[8.206s] creating ../../build/waypoint_logger/waypoint_logger.egg-info
+[8.207s] writing ../../build/waypoint_logger/waypoint_logger.egg-info/PKG-INFO
+[8.209s] writing dependency_links to ../../build/waypoint_logger/waypoint_logger.egg-info/dependency_links.txt
+[8.209s] writing entry points to ../../build/waypoint_logger/waypoint_logger.egg-info/entry_points.txt
+[8.210s] writing requirements to ../../build/waypoint_logger/waypoint_logger.egg-info/requires.txt
+[8.210s] writing top-level names to ../../build/waypoint_logger/waypoint_logger.egg-info/top_level.txt
+[8.216s] writing manifest file '../../build/waypoint_logger/waypoint_logger.egg-info/SOURCES.txt'
+[8.224s] reading manifest file '../../build/waypoint_logger/waypoint_logger.egg-info/SOURCES.txt'
+[8.229s] writing manifest file '../../build/waypoint_logger/waypoint_logger.egg-info/SOURCES.txt'
+[8.231s] running build
+[8.231s] running build_py
+[8.232s] creating /home/f1tenth/f1tenth_mrc_ws/build/waypoint_logger/build
+[8.232s] creating /home/f1tenth/f1tenth_mrc_ws/build/waypoint_logger/build/lib
+[8.233s] creating /home/f1tenth/f1tenth_mrc_ws/build/waypoint_logger/build/lib/waypoint_logger
+[8.233s] copying waypoint_logger/optitrack_logger.py -> /home/f1tenth/f1tenth_mrc_ws/build/waypoint_logger/build/lib/waypoint_logger
+[8.234s] copying waypoint_logger/mpc_logger.py -> /home/f1tenth/f1tenth_mrc_ws/build/waypoint_logger/build/lib/waypoint_logger
+[8.234s] copying waypoint_logger/logger.py -> /home/f1tenth/f1tenth_mrc_ws/build/waypoint_logger/build/lib/waypoint_logger
+[8.234s] copying waypoint_logger/__init__.py -> /home/f1tenth/f1tenth_mrc_ws/build/waypoint_logger/build/lib/waypoint_logger
+[8.235s] running install
+[8.240s] running install_lib
+[8.245s] creating /home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/lib/python3.8/site-packages/waypoint_logger
+[8.245s] copying /home/f1tenth/f1tenth_mrc_ws/build/waypoint_logger/build/lib/waypoint_logger/optitrack_logger.py -> /home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/lib/python3.8/site-packages/waypoint_logger
+[8.246s] copying /home/f1tenth/f1tenth_mrc_ws/build/waypoint_logger/build/lib/waypoint_logger/mpc_logger.py -> /home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/lib/python3.8/site-packages/waypoint_logger
+[8.247s] copying /home/f1tenth/f1tenth_mrc_ws/build/waypoint_logger/build/lib/waypoint_logger/logger.py -> /home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/lib/python3.8/site-packages/waypoint_logger
+[8.247s] copying /home/f1tenth/f1tenth_mrc_ws/build/waypoint_logger/build/lib/waypoint_logger/__init__.py -> /home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/lib/python3.8/site-packages/waypoint_logger
+[8.250s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/lib/python3.8/site-packages/waypoint_logger/optitrack_logger.py to optitrack_logger.cpython-38.pyc
+[8.254s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/lib/python3.8/site-packages/waypoint_logger/mpc_logger.py to mpc_logger.cpython-38.pyc
+[8.258s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/lib/python3.8/site-packages/waypoint_logger/logger.py to logger.cpython-38.pyc
+[8.262s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/lib/python3.8/site-packages/waypoint_logger/__init__.py to __init__.cpython-38.pyc
+[8.264s] running install_data
+[8.264s] creating /home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/share/ament_index
+[8.266s] creating /home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/share/ament_index/resource_index
+[8.267s] creating /home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/share/ament_index/resource_index/packages
+[8.268s] copying resource/waypoint_logger -> /home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/share/ament_index/resource_index/packages
+[8.268s] copying package.xml -> /home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/share/waypoint_logger
+[8.269s] running install_egg_info
+[8.279s] Copying ../../build/waypoint_logger/waypoint_logger.egg-info to /home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/lib/python3.8/site-packages/waypoint_logger-0.0.0-py3.8.egg-info
+[8.285s] running install_scripts
+[8.370s] Installing mpc_logger script to /home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/lib/waypoint_logger
+[8.372s] Installing optitrack_logger script to /home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/lib/waypoint_logger
+[8.374s] Installing waypoint_logger script to /home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/lib/waypoint_logger
+[8.377s] writing list of installed files to '/home/f1tenth/f1tenth_mrc_ws/build/waypoint_logger/install.log'
+[8.503s] Invoked command in '/home/f1tenth/f1tenth_mrc_ws/src/waypoint_logger' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_mrc_ws/build/waypoint_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_mrc_ws/install/waypoint_logger/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waypoint_logger build --build-base /home/f1tenth/f1tenth_mrc_ws/build/waypoint_logger/build install --record /home/f1tenth/f1tenth_mrc_ws/build/waypoint_logger/install.log --install-scripts $base/lib/waypoint_logger --single-version-externally-managed install_data

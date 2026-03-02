@@ -1,0 +1,484 @@
+[0.000000] (-) TimerEvent: {}
+[0.001245] (-) JobUnselected: {'identifier': 'camera_pkg'}
+[0.002292] (-) JobUnselected: {'identifier': 'f1tenth_gym_ros'}
+[0.002920] (-) JobUnselected: {'identifier': 'gap_follow'}
+[0.003025] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.003141] (-) JobUnselected: {'identifier': 'ppo_racing'}
+[0.003223] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.003300] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.003377] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.003451] (-) JobUnselected: {'identifier': 'rrt_package'}
+[0.003526] (-) JobUnselected: {'identifier': 'safety_node'}
+[0.003601] (-) JobUnselected: {'identifier': 'wall_follow'}
+[0.003681] (-) JobUnselected: {'identifier': 'waypoint_logger'}
+[0.003797] (realsense2_camera) JobQueued: {'identifier': 'realsense2_camera', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/f1tenth/f1tenth_mrc_ws/install/realsense2_camera_msgs')])}
+[0.003932] (realsense2_camera) JobStarted: {'identifier': 'realsense2_camera'}
+[0.062724] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'cmake'}
+[0.068661] (realsense2_camera) Command: {'cmd': ['/usr/bin/cmake', '/home/f1tenth/f1tenth_mrc_ws/src/realsense-ros/realsense2_camera', '-DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_mrc_ws/install/realsense2_camera'], 'cwd': '/home/f1tenth/f1tenth_mrc_ws/build/realsense2_camera', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('LC_TIME', 'bs_BA.UTF-8'), ('SSH_AGENT_PID', '2565'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/f1tenth_mrc_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/f1tenth'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.1.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('LC_MONETARY', 'bs_BA.UTF-8'), ('MANAGERPID', '2457'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3235'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422420033521'), ('JOURNAL_STREAM', '7:53908'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/f1tenth-desktop:@/tmp/.ICE-unix/2600,unix/f1tenth-desktop:/tmp/.ICE-unix/2600'), ('INVOCATION_ID', 'c5de2b9b9c7340ab9e1e6c262a31fe9d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bs_BA.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'bs_BA.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '6'), ('AMENT_PREFIX_PATH', '/home/f1tenth/f1tenth_mrc_ws/install/realsense2_camera_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bs_BA.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bc74f3df-c9db-4562-ac13-e37132c4c677'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bs_BA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'bs_BA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/f1tenth/f1tenth_mrc_ws/build/realsense2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/f1tenth_mrc_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'bs_BA.UTF-8'), ('LC_PAPER', 'bs_BA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.0.2 GA'), ('JETSON_P_NUMBER', 'p3668-0000'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/f1tenth_mrc_ws/install/realsense2_camera_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.098917] (-) TimerEvent: {}
+[0.190391] (realsense2_camera) StdoutLine: {'line': b'-- Create Release Build.\n'}
+[0.192141] (realsense2_camera) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.199061] (-) TimerEvent: {}
+[0.292608] (realsense2_camera) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.299262] (-) TimerEvent: {}
+[0.400083] (-) TimerEvent: {}
+[0.500941] (-) TimerEvent: {}
+[0.601764] (-) TimerEvent: {}
+[0.702553] (-) TimerEvent: {}
+[0.803402] (-) TimerEvent: {}
+[0.904187] (-) TimerEvent: {}
+[1.004974] (-) TimerEvent: {}
+[1.105986] (-) TimerEvent: {}
+[1.144480] (realsense2_camera) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[1.206193] (-) TimerEvent: {}
+[1.252719] (realsense2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.275627] (realsense2_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.306423] (-) TimerEvent: {}
+[1.407330] (-) TimerEvent: {}
+[1.508323] (-) TimerEvent: {}
+[1.609153] (-) TimerEvent: {}
+[1.710231] (-) TimerEvent: {}
+[1.802339] (realsense2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.810436] (-) TimerEvent: {}
+[1.911374] (-) TimerEvent: {}
+[1.915675] (realsense2_camera) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[2.011594] (-) TimerEvent: {}
+[2.112601] (-) TimerEvent: {}
+[2.213617] (-) TimerEvent: {}
+[2.314569] (-) TimerEvent: {}
+[2.415483] (-) TimerEvent: {}
+[2.465192] (realsense2_camera) StdoutLine: {'line': b'-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[2.515722] (-) TimerEvent: {}
+[2.616568] (-) TimerEvent: {}
+[2.631653] (realsense2_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.637795] (realsense2_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.716783] (-) TimerEvent: {}
+[2.817863] (-) TimerEvent: {}
+[2.918835] (-) TimerEvent: {}
+[3.019779] (-) TimerEvent: {}
+[3.120707] (-) TimerEvent: {}
+[3.217773] (realsense2_camera) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[3.220836] (-) TimerEvent: {}
+[3.321734] (-) TimerEvent: {}
+[3.422666] (-) TimerEvent: {}
+[3.460082] (realsense2_camera) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[3.522859] (-) TimerEvent: {}
+[3.609143] (realsense2_camera) StdoutLine: {'line': b'-- Found realsense2_camera_msgs: 4.56.4 (/home/f1tenth/f1tenth_mrc_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)\n'}
+[3.623018] (-) TimerEvent: {}
+[3.723845] (-) TimerEvent: {}
+[3.824759] (-) TimerEvent: {}
+[3.925662] (-) TimerEvent: {}
+[4.026629] (-) TimerEvent: {}
+[4.106904] (realsense2_camera) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[4.126854] (-) TimerEvent: {}
+[4.142136] (realsense2_camera) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[4.227082] (-) TimerEvent: {}
+[4.327990] (-) TimerEvent: {}
+[4.334985] (realsense2_camera) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[4.428199] (-) TimerEvent: {}
+[4.528988] (-) TimerEvent: {}
+[4.629899] (-) TimerEvent: {}
+[4.730787] (-) TimerEvent: {}
+[4.831656] (-) TimerEvent: {}
+[4.852293] (realsense2_camera) StdoutLine: {'line': b'-- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)\n'}
+[4.931868] (-) TimerEvent: {}
+[5.027487] (realsense2_camera) StdoutLine: {'line': b'-- Build for ROS2 Foxy\n'}
+[5.032060] (-) TimerEvent: {}
+[5.036547] (realsense2_camera) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[5.040478] (realsense2_camera) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[5.054553] (realsense2_camera) StdoutLine: {'line': b'-- Found ament_cmake_pytest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_pytest/cmake)\n'}
+[5.132302] (-) TimerEvent: {}
+[5.233182] (-) TimerEvent: {}
+[5.334078] (-) TimerEvent: {}
+[5.434924] (-) TimerEvent: {}
+[5.535752] (-) TimerEvent: {}
+[5.636644] (-) TimerEvent: {}
+[5.737534] (-) TimerEvent: {}
+[5.838388] (-) TimerEvent: {}
+[5.939208] (-) TimerEvent: {}
+[6.040086] (-) TimerEvent: {}
+[6.140967] (-) TimerEvent: {}
+[6.241882] (-) TimerEvent: {}
+[6.342723] (-) TimerEvent: {}
+[6.443503] (-) TimerEvent: {}
+[6.544400] (-) TimerEvent: {}
+[6.645307] (-) TimerEvent: {}
+[6.746243] (-) TimerEvent: {}
+[6.847543] (-) TimerEvent: {}
+[6.948324] (-) TimerEvent: {}
+[7.049646] (-) TimerEvent: {}
+[7.150952] (-) TimerEvent: {}
+[7.251946] (-) TimerEvent: {}
+[7.352922] (-) TimerEvent: {}
+[7.453911] (-) TimerEvent: {}
+[7.554786] (-) TimerEvent: {}
+[7.655669] (-) TimerEvent: {}
+[7.756551] (-) TimerEvent: {}
+[7.857408] (-) TimerEvent: {}
+[7.958404] (-) TimerEvent: {}
+[8.059279] (-) TimerEvent: {}
+[8.160167] (-) TimerEvent: {}
+[8.261074] (-) TimerEvent: {}
+[8.362065] (-) TimerEvent: {}
+[8.463116] (-) TimerEvent: {}
+[8.564013] (-) TimerEvent: {}
+[8.664940] (-) TimerEvent: {}
+[8.766053] (-) TimerEvent: {}
+[8.866896] (-) TimerEvent: {}
+[8.967770] (-) TimerEvent: {}
+[9.068707] (-) TimerEvent: {}
+[9.169680] (-) TimerEvent: {}
+[9.270845] (-) TimerEvent: {}
+[9.371920] (-) TimerEvent: {}
+[9.472727] (-) TimerEvent: {}
+[9.573846] (-) TimerEvent: {}
+[9.674698] (-) TimerEvent: {}
+[9.775578] (-) TimerEvent: {}
+[9.876447] (-) TimerEvent: {}
+[9.986946] (-) TimerEvent: {}
+[10.087838] (-) TimerEvent: {}
+[10.188731] (-) TimerEvent: {}
+[10.289727] (-) TimerEvent: {}
+[10.391764] (-) TimerEvent: {}
+[10.492692] (-) TimerEvent: {}
+[10.593706] (-) TimerEvent: {}
+[10.694516] (-) TimerEvent: {}
+[10.795388] (-) TimerEvent: {}
+[10.896301] (-) TimerEvent: {}
+[10.997160] (-) TimerEvent: {}
+[11.098093] (-) TimerEvent: {}
+[11.199037] (-) TimerEvent: {}
+[11.300150] (-) TimerEvent: {}
+[11.401187] (-) TimerEvent: {}
+[11.502026] (-) TimerEvent: {}
+[11.602852] (-) TimerEvent: {}
+[11.703645] (-) TimerEvent: {}
+[11.804532] (-) TimerEvent: {}
+[11.905367] (-) TimerEvent: {}
+[12.006196] (-) TimerEvent: {}
+[12.106967] (-) TimerEvent: {}
+[12.207737] (-) TimerEvent: {}
+[12.308544] (-) TimerEvent: {}
+[12.409357] (-) TimerEvent: {}
+[12.510230] (-) TimerEvent: {}
+[12.611085] (-) TimerEvent: {}
+[12.712012] (-) TimerEvent: {}
+[12.812918] (-) TimerEvent: {}
+[12.914056] (-) TimerEvent: {}
+[13.014928] (-) TimerEvent: {}
+[13.115712] (-) TimerEvent: {}
+[13.216518] (-) TimerEvent: {}
+[13.317780] (-) TimerEvent: {}
+[13.418704] (-) TimerEvent: {}
+[13.519596] (-) TimerEvent: {}
+[13.620514] (-) TimerEvent: {}
+[13.721395] (-) TimerEvent: {}
+[13.822319] (-) TimerEvent: {}
+[13.925676] (-) TimerEvent: {}
+[14.026447] (-) TimerEvent: {}
+[14.127161] (-) TimerEvent: {}
+[14.227911] (-) TimerEvent: {}
+[14.328658] (-) TimerEvent: {}
+[14.429414] (-) TimerEvent: {}
+[14.530259] (-) TimerEvent: {}
+[14.631090] (-) TimerEvent: {}
+[14.731850] (-) TimerEvent: {}
+[14.832677] (-) TimerEvent: {}
+[14.933643] (-) TimerEvent: {}
+[15.034461] (-) TimerEvent: {}
+[15.135299] (-) TimerEvent: {}
+[15.236188] (-) TimerEvent: {}
+[15.337329] (-) TimerEvent: {}
+[15.438291] (-) TimerEvent: {}
+[15.539179] (-) TimerEvent: {}
+[15.640117] (-) TimerEvent: {}
+[15.741013] (-) TimerEvent: {}
+[15.841881] (-) TimerEvent: {}
+[15.942688] (-) TimerEvent: {}
+[16.043762] (-) TimerEvent: {}
+[16.144664] (-) TimerEvent: {}
+[16.245728] (-) TimerEvent: {}
+[16.346614] (-) TimerEvent: {}
+[16.447420] (-) TimerEvent: {}
+[16.548293] (-) TimerEvent: {}
+[16.649138] (-) TimerEvent: {}
+[16.750060] (-) TimerEvent: {}
+[16.850871] (-) TimerEvent: {}
+[16.951655] (-) TimerEvent: {}
+[17.052571] (-) TimerEvent: {}
+[17.153514] (-) TimerEvent: {}
+[17.254441] (-) TimerEvent: {}
+[17.355504] (-) TimerEvent: {}
+[17.456573] (-) TimerEvent: {}
+[17.557429] (-) TimerEvent: {}
+[17.658317] (-) TimerEvent: {}
+[17.759168] (-) TimerEvent: {}
+[17.859958] (-) TimerEvent: {}
+[17.960773] (-) TimerEvent: {}
+[18.061593] (-) TimerEvent: {}
+[18.162401] (-) TimerEvent: {}
+[18.263210] (-) TimerEvent: {}
+[18.364048] (-) TimerEvent: {}
+[18.464880] (-) TimerEvent: {}
+[18.565838] (-) TimerEvent: {}
+[18.666663] (-) TimerEvent: {}
+[18.767589] (-) TimerEvent: {}
+[18.868582] (-) TimerEvent: {}
+[18.969420] (-) TimerEvent: {}
+[19.070208] (-) TimerEvent: {}
+[19.171126] (-) TimerEvent: {}
+[19.272080] (-) TimerEvent: {}
+[19.373388] (-) TimerEvent: {}
+[19.474733] (-) TimerEvent: {}
+[19.575607] (-) TimerEvent: {}
+[19.676398] (-) TimerEvent: {}
+[19.777222] (-) TimerEvent: {}
+[19.878064] (-) TimerEvent: {}
+[19.978895] (-) TimerEvent: {}
+[20.079760] (-) TimerEvent: {}
+[20.180632] (-) TimerEvent: {}
+[20.281436] (-) TimerEvent: {}
+[20.382326] (-) TimerEvent: {}
+[20.483147] (-) TimerEvent: {}
+[20.584001] (-) TimerEvent: {}
+[20.684891] (-) TimerEvent: {}
+[20.785831] (-) TimerEvent: {}
+[20.886627] (-) TimerEvent: {}
+[20.987441] (-) TimerEvent: {}
+[21.088861] (-) TimerEvent: {}
+[21.189955] (-) TimerEvent: {}
+[21.290761] (-) TimerEvent: {}
+[21.391635] (-) TimerEvent: {}
+[21.492515] (-) TimerEvent: {}
+[21.593349] (-) TimerEvent: {}
+[21.694323] (-) TimerEvent: {}
+[21.795207] (-) TimerEvent: {}
+[21.896018] (-) TimerEvent: {}
+[21.997157] (-) TimerEvent: {}
+[22.098065] (-) TimerEvent: {}
+[22.198874] (-) TimerEvent: {}
+[22.299703] (-) TimerEvent: {}
+[22.400521] (-) TimerEvent: {}
+[22.501391] (-) TimerEvent: {}
+[22.602387] (-) TimerEvent: {}
+[22.703339] (-) TimerEvent: {}
+[22.804203] (-) TimerEvent: {}
+[22.905095] (-) TimerEvent: {}
+[23.006080] (-) TimerEvent: {}
+[23.107098] (-) TimerEvent: {}
+[23.208474] (-) TimerEvent: {}
+[23.309339] (-) TimerEvent: {}
+[23.398504] (realsense2_camera) StdoutLine: {'line': b'-- rs_device_info:\n'}
+[23.399970] (realsense2_camera) StdoutLine: {'line': b'-- Device Name                   Serial Number       Firmware Version    \n'}
+[23.400589] (realsense2_camera) StdoutLine: {'line': b'Intel RealSense D435I         036522070717        05.17.00.10         \n'}
+[23.401276] (realsense2_camera) StdoutLine: {'line': b'\n'}
+[23.401815] (realsense2_camera) StdoutLine: {'line': b'-- D455 device found\n'}
+[23.409600] (-) TimerEvent: {}
+[23.510967] (-) TimerEvent: {}
+[23.611757] (-) TimerEvent: {}
+[23.712555] (-) TimerEvent: {}
+[23.813412] (-) TimerEvent: {}
+[23.914276] (-) TimerEvent: {}
+[24.015106] (-) TimerEvent: {}
+[24.115926] (-) TimerEvent: {}
+[24.216725] (-) TimerEvent: {}
+[24.317849] (-) TimerEvent: {}
+[24.420409] (-) TimerEvent: {}
+[24.521216] (-) TimerEvent: {}
+[24.622144] (-) TimerEvent: {}
+[24.722967] (-) TimerEvent: {}
+[24.823874] (-) TimerEvent: {}
+[24.924875] (-) TimerEvent: {}
+[25.025744] (-) TimerEvent: {}
+[25.126522] (-) TimerEvent: {}
+[25.227326] (-) TimerEvent: {}
+[25.328188] (-) TimerEvent: {}
+[25.429068] (-) TimerEvent: {}
+[25.530027] (-) TimerEvent: {}
+[25.630806] (-) TimerEvent: {}
+[25.731628] (-) TimerEvent: {}
+[25.832423] (-) TimerEvent: {}
+[25.933244] (-) TimerEvent: {}
+[26.034111] (-) TimerEvent: {}
+[26.134925] (-) TimerEvent: {}
+[26.235690] (-) TimerEvent: {}
+[26.336492] (-) TimerEvent: {}
+[26.437331] (-) TimerEvent: {}
+[26.538198] (-) TimerEvent: {}
+[26.639002] (-) TimerEvent: {}
+[26.739825] (-) TimerEvent: {}
+[26.840625] (-) TimerEvent: {}
+[26.941510] (-) TimerEvent: {}
+[27.042905] (-) TimerEvent: {}
+[27.144060] (-) TimerEvent: {}
+[27.244988] (-) TimerEvent: {}
+[27.345970] (-) TimerEvent: {}
+[27.446857] (-) TimerEvent: {}
+[27.547652] (-) TimerEvent: {}
+[27.648451] (-) TimerEvent: {}
+[27.749248] (-) TimerEvent: {}
+[27.850187] (-) TimerEvent: {}
+[27.951008] (-) TimerEvent: {}
+[28.051870] (-) TimerEvent: {}
+[28.152663] (-) TimerEvent: {}
+[28.253514] (-) TimerEvent: {}
+[28.354360] (-) TimerEvent: {}
+[28.455171] (-) TimerEvent: {}
+[28.556009] (-) TimerEvent: {}
+[28.656902] (-) TimerEvent: {}
+[28.757730] (-) TimerEvent: {}
+[28.858567] (-) TimerEvent: {}
+[28.959417] (-) TimerEvent: {}
+[29.060331] (-) TimerEvent: {}
+[29.161184] (-) TimerEvent: {}
+[29.262548] (-) TimerEvent: {}
+[29.363428] (-) TimerEvent: {}
+[29.464362] (-) TimerEvent: {}
+[29.565248] (-) TimerEvent: {}
+[29.666378] (-) TimerEvent: {}
+[29.767273] (-) TimerEvent: {}
+[29.868199] (-) TimerEvent: {}
+[29.969124] (-) TimerEvent: {}
+[30.070145] (-) TimerEvent: {}
+[30.170915] (-) TimerEvent: {}
+[30.271718] (-) TimerEvent: {}
+[30.372616] (-) TimerEvent: {}
+[30.473720] (-) TimerEvent: {}
+[30.574649] (-) TimerEvent: {}
+[30.675587] (-) TimerEvent: {}
+[30.776554] (-) TimerEvent: {}
+[30.878183] (-) TimerEvent: {}
+[30.979420] (-) TimerEvent: {}
+[31.080339] (-) TimerEvent: {}
+[31.181361] (-) TimerEvent: {}
+[31.282582] (-) TimerEvent: {}
+[31.383380] (-) TimerEvent: {}
+[31.484335] (-) TimerEvent: {}
+[31.585368] (-) TimerEvent: {}
+[31.686291] (-) TimerEvent: {}
+[31.787206] (-) TimerEvent: {}
+[31.888058] (-) TimerEvent: {}
+[31.988935] (-) TimerEvent: {}
+[32.089899] (-) TimerEvent: {}
+[32.190780] (-) TimerEvent: {}
+[32.291599] (-) TimerEvent: {}
+[32.392437] (-) TimerEvent: {}
+[32.493236] (-) TimerEvent: {}
+[32.594071] (-) TimerEvent: {}
+[32.694963] (-) TimerEvent: {}
+[32.795870] (-) TimerEvent: {}
+[32.897216] (-) TimerEvent: {}
+[32.998164] (-) TimerEvent: {}
+[33.098975] (-) TimerEvent: {}
+[33.199793] (-) TimerEvent: {}
+[33.300646] (-) TimerEvent: {}
+[33.401450] (-) TimerEvent: {}
+[33.502415] (-) TimerEvent: {}
+[33.603254] (-) TimerEvent: {}
+[33.704097] (-) TimerEvent: {}
+[33.804917] (-) TimerEvent: {}
+[33.905817] (-) TimerEvent: {}
+[34.006654] (-) TimerEvent: {}
+[34.107468] (-) TimerEvent: {}
+[34.208319] (-) TimerEvent: {}
+[34.309155] (-) TimerEvent: {}
+[34.410035] (-) TimerEvent: {}
+[34.510936] (-) TimerEvent: {}
+[34.611925] (-) TimerEvent: {}
+[34.712951] (-) TimerEvent: {}
+[34.813861] (-) TimerEvent: {}
+[34.914640] (-) TimerEvent: {}
+[35.015436] (-) TimerEvent: {}
+[35.116284] (-) TimerEvent: {}
+[35.217078] (-) TimerEvent: {}
+[35.317935] (-) TimerEvent: {}
+[35.418728] (-) TimerEvent: {}
+[35.519467] (-) TimerEvent: {}
+[35.620378] (-) TimerEvent: {}
+[35.721171] (-) TimerEvent: {}
+[35.822039] (-) TimerEvent: {}
+[35.922828] (-) TimerEvent: {}
+[36.023649] (-) TimerEvent: {}
+[36.124444] (-) TimerEvent: {}
+[36.225219] (-) TimerEvent: {}
+[36.326147] (-) TimerEvent: {}
+[36.426844] (-) TimerEvent: {}
+[36.527686] (-) TimerEvent: {}
+[36.628763] (-) TimerEvent: {}
+[36.729858] (-) TimerEvent: {}
+[36.830933] (-) TimerEvent: {}
+[36.931883] (-) TimerEvent: {}
+[37.032763] (-) TimerEvent: {}
+[37.133640] (-) TimerEvent: {}
+[37.234503] (-) TimerEvent: {}
+[37.335357] (-) TimerEvent: {}
+[37.436222] (-) TimerEvent: {}
+[37.537067] (-) TimerEvent: {}
+[37.638105] (-) TimerEvent: {}
+[37.739362] (-) TimerEvent: {}
+[37.840484] (-) TimerEvent: {}
+[37.941660] (-) TimerEvent: {}
+[38.042624] (-) TimerEvent: {}
+[38.143477] (-) TimerEvent: {}
+[38.244426] (-) TimerEvent: {}
+[38.345226] (-) TimerEvent: {}
+[38.446107] (-) TimerEvent: {}
+[38.547123] (-) TimerEvent: {}
+[38.648065] (-) TimerEvent: {}
+[38.748966] (-) TimerEvent: {}
+[38.849802] (-) TimerEvent: {}
+[38.950612] (-) TimerEvent: {}
+[39.051479] (-) TimerEvent: {}
+[39.152558] (-) TimerEvent: {}
+[39.253368] (-) TimerEvent: {}
+[39.354234] (-) TimerEvent: {}
+[39.455228] (-) TimerEvent: {}
+[39.556160] (-) TimerEvent: {}
+[39.657092] (-) TimerEvent: {}
+[39.758048] (-) TimerEvent: {}
+[39.858867] (-) TimerEvent: {}
+[39.959670] (-) TimerEvent: {}
+[40.060580] (-) TimerEvent: {}
+[40.161553] (-) TimerEvent: {}
+[40.262323] (-) TimerEvent: {}
+[40.363065] (-) TimerEvent: {}
+[40.463968] (-) TimerEvent: {}
+[40.565064] (-) TimerEvent: {}
+[40.666149] (-) TimerEvent: {}
+[40.767077] (-) TimerEvent: {}
+[40.839750] (realsense2_camera) StdoutLine: {'line': b'-- Configuring done\n'}
+[40.867355] (-) TimerEvent: {}
+[40.873893] (realsense2_camera) StderrLine: {'line': b'CMake Error at CMakeLists.txt:236 (add_library):\n'}
+[40.874880] (realsense2_camera) StderrLine: {'line': b'  Target "realsense2_camera" links to target "cv_bridge::cv_bridge" but the\n'}
+[40.875214] (realsense2_camera) StderrLine: {'line': b'  target was not found.  Perhaps a find_package() call is missing for an\n'}
+[40.875678] (realsense2_camera) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[40.875938] (realsense2_camera) StderrLine: {'line': b'\n'}
+[40.876201] (realsense2_camera) StderrLine: {'line': b'\n'}
+[40.876469] (realsense2_camera) StderrLine: {'line': b'CMake Error at CMakeLists.txt:236 (add_library):\n'}
+[40.876704] (realsense2_camera) StderrLine: {'line': b'  Target "realsense2_camera" links to target\n'}
+[40.876932] (realsense2_camera) StderrLine: {'line': b'  "image_transport::image_transport" but the target was not found.  Perhaps a\n'}
+[40.877180] (realsense2_camera) StderrLine: {'line': b'  find_package() call is missing for an IMPORTED target, or an ALIAS target\n'}
+[40.877419] (realsense2_camera) StderrLine: {'line': b'  is missing?\n'}
+[40.877757] (realsense2_camera) StderrLine: {'line': b'\n'}
+[40.877991] (realsense2_camera) StderrLine: {'line': b'\n'}
+[40.878239] (realsense2_camera) StderrLine: {'line': b'CMake Error at CMakeLists.txt:236 (add_library):\n'}
+[40.878476] (realsense2_camera) StderrLine: {'line': b'  Target "realsense2_camera" links to target "rclcpp_components::component"\n'}
+[40.878715] (realsense2_camera) StderrLine: {'line': b'  but the target was not found.  Perhaps a find_package() call is missing for\n'}
+[40.878996] (realsense2_camera) StderrLine: {'line': b'  an IMPORTED target, or an ALIAS target is missing?\n'}
+[40.879257] (realsense2_camera) StderrLine: {'line': b'\n'}
+[40.879491] (realsense2_camera) StderrLine: {'line': b'\n'}
+[40.879718] (realsense2_camera) StderrLine: {'line': b'CMake Error at CMakeLists.txt:236 (add_library):\n'}
+[40.879946] (realsense2_camera) StderrLine: {'line': b'  Target "realsense2_camera" links to target\n'}
+[40.880255] (realsense2_camera) StderrLine: {'line': b'  "sensor_msgs::sensor_msgs_library" but the target was not found.  Perhaps a\n'}
+[40.880510] (realsense2_camera) StderrLine: {'line': b'  find_package() call is missing for an IMPORTED target, or an ALIAS target\n'}
+[40.880758] (realsense2_camera) StderrLine: {'line': b'  is missing?\n'}
+[40.880993] (realsense2_camera) StderrLine: {'line': b'\n'}
+[40.881227] (realsense2_camera) StderrLine: {'line': b'\n'}
+[40.967647] (-) TimerEvent: {}
+[41.011192] (realsense2_camera) StdoutLine: {'line': b'-- Generating done\n'}
+[41.019886] (realsense2_camera) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[41.058146] (realsense2_camera) CommandEnded: {'returncode': 1}
+[41.068626] (-) TimerEvent: {}
+[41.171343] (-) TimerEvent: {}
+[41.176227] (realsense2_camera) JobEnded: {'identifier': 'realsense2_camera', 'rc': 1}
+[41.188494] (-) EventReactorShutdown: {}

@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from lidar_object_detection/msg/DetectedObjectArray.msg
+// generated code does not contain a copyright notice
+
+#include "lidar_object_detection/msg/DetectedObject.idl"
+#include "std_msgs/msg/Header.idl"
+
+module lidar_object_detection {
+  module msg {
+    @verbatim (language="comment", text=
+      " This message contains an array of all currently detected objects.")
+    struct DetectedObjectArray {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " The list of detected objects")
+      sequence<lidar_object_detection::msg::DetectedObject> objects;
+    };
+  };
+};

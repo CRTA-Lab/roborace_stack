@@ -1,0 +1,10 @@
+msg/LShape.idl
+msg/LShape.msg
+msg/Object.idl
+msg/Object.msg
+msg/ObjectsArray.idl
+msg/ObjectsArray.msg
+msg/Pose2D.idl
+msg/Pose2D.msg
+msg/ScanClusters.idl
+msg/ScanClusters.msg

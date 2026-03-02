@@ -1,0 +1,10 @@
+{
+  "package_name": "lidar_object_detection_ros2",
+  "non_idl_tuples": [
+    "/home/f1tenth/f1tenth_mrc_ws/src/lidar_pose_estimation/lidar_object_detection_ros2:msg/Pose2D.msg",
+    "/home/f1tenth/f1tenth_mrc_ws/src/lidar_pose_estimation/lidar_object_detection_ros2:msg/LShape.msg",
+    "/home/f1tenth/f1tenth_mrc_ws/src/lidar_pose_estimation/lidar_object_detection_ros2:msg/Object.msg",
+    "/home/f1tenth/f1tenth_mrc_ws/src/lidar_pose_estimation/lidar_object_detection_ros2:msg/ObjectsArray.msg",
+    "/home/f1tenth/f1tenth_mrc_ws/src/lidar_pose_estimation/lidar_object_detection_ros2:msg/ScanClusters.msg"
+  ]
+}

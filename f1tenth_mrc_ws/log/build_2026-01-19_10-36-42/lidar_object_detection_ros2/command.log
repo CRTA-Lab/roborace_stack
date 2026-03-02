@@ -1,0 +1,4 @@
+Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2 -- -j4 -l4
+Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2 -- -j4 -l4
+Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2
+Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2

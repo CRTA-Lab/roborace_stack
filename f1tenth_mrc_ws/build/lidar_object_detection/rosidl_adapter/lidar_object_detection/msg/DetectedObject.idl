@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from lidar_object_detection/msg/DetectedObject.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Polygon.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module lidar_object_detection {
+  module msg {
+    @verbatim (language="comment", text=
+      " This message defines a single tracked object.")
+    struct DetectedObject {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " A unique ID for the tracked object")
+      uint32 object_id;
+
+      @verbatim (language="comment", text=
+        " The geometric center of the object in the laser scan's frame")
+      geometry_msgs::msg::Point center;
+
+      @verbatim (language="comment", text=
+        " The relative velocity of the object")
+      geometry_msgs::msg::Vector3 velocity;
+
+      @verbatim (language="comment", text=
+        " A polygon representing the convex hull or bounding box of the object's points")
+      geometry_msgs::msg::Polygon bounding_box;
+    };
+  };
+};

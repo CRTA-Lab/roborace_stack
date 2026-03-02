@@ -1,0 +1,336 @@
+[0.062s] Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth_mrc_ws/src/lidar_pose_estimation/lidar_object_detection_ros2 -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2
+[0.538s] -- The C compiler identification is GNU 9.4.0
+[0.891s] -- The CXX compiler identification is GNU 9.4.0
+[0.919s] -- Check for working C compiler: /usr/bin/cc
+[1.241s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.246s] -- Detecting C compiler ABI info
+[1.576s] -- Detecting C compiler ABI info - done
+[1.643s] -- Detecting C compile features
+[1.645s] -- Detecting C compile features - done
+[1.658s] -- Check for working CXX compiler: /usr/bin/c++
+[2.022s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.026s] -- Detecting CXX compiler ABI info
+[2.388s] -- Detecting CXX compiler ABI info - done
+[2.452s] -- Detecting CXX compile features
+[2.453s] -- Detecting CXX compile features - done
+[2.469s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.570s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.570s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.468s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[3.474s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[3.599s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.629s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.030s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.142s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.471s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.688s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.828s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[5.092s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[5.226s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[6.165s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[7.383s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.963s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.066s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[8.074s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[8.190s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[8.191s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.192s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[8.192s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[8.276s] -- Found PythonExtra: .so  
+[8.651s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.742s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.747s] -- Added test 'lint_cmake' to check CMake code style
+[8.750s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[8.767s] -- Added test 'xmllint' to check XML markup files
+[8.797s] -- Configuring done
+[9.205s] -- Generating done
+[9.309s] -- Build files have been written to: /home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2
+[9.349s] Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth_mrc_ws/src/lidar_pose_estimation/lidar_object_detection_ros2 -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2
+[9.365s] Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2 -- -j4 -l4
+[9.547s] [35m[1mScanning dependencies of target lidar_object_detection_ros2__cpp[0m
+[9.549s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.599s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.510s] [35m[1mScanning dependencies of target lidar_object_detection_ros2__rosidl_generator_c[0m
+[11.521s] [  3%] Built target lidar_object_detection_ros2__cpp
+[11.572s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.575s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.577s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.604s] [  9%] [32mBuilding C object CMakeFiles/lidar_object_detection_ros2__rosidl_generator_c.dir/rosidl_generator_c/lidar_object_detection_ros2/msg/detail/pose2_d__functions.c.o[0m
+[11.909s] [ 11%] [32mBuilding C object CMakeFiles/lidar_object_detection_ros2__rosidl_generator_c.dir/rosidl_generator_c/lidar_object_detection_ros2/msg/detail/l_shape__functions.c.o[0m
+[12.170s] [ 12%] [32mBuilding C object CMakeFiles/lidar_object_detection_ros2__rosidl_generator_c.dir/rosidl_generator_c/lidar_object_detection_ros2/msg/detail/object__functions.c.o[0m
+[12.416s] [ 14%] [32mBuilding C object CMakeFiles/lidar_object_detection_ros2__rosidl_generator_c.dir/rosidl_generator_c/lidar_object_detection_ros2/msg/detail/objects_array__functions.c.o[0m
+[12.691s] [ 15%] [32mBuilding C object CMakeFiles/lidar_object_detection_ros2__rosidl_generator_c.dir/rosidl_generator_c/lidar_object_detection_ros2/msg/detail/scan_clusters__functions.c.o[0m
+[12.883s] [35m[1mScanning dependencies of target lidar_object_detection_ros2__rosidl_typesupport_cpp[0m
+[12.968s] [ 17%] [32m[1mLinking C shared library liblidar_object_detection_ros2__rosidl_generator_c.so[0m
+[12.979s] [ 19%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lidar_object_detection_ros2/msg/pose2_d__type_support.cpp.o[0m
+[13.182s] [ 19%] Built target lidar_object_detection_ros2__rosidl_generator_c
+[13.288s] [ 20%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lidar_object_detection_ros2/msg/l_shape__type_support.cpp.o[0m
+[13.356s] [35m[1mScanning dependencies of target lidar_object_detection_ros2__rosidl_typesupport_introspection_cpp[0m
+[13.467s] [ 22%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lidar_object_detection_ros2/msg/detail/pose2_d__type_support.cpp.o[0m
+[13.818s] [35m[1mScanning dependencies of target lidar_object_detection_ros2__rosidl_typesupport_fastrtps_cpp[0m
+[13.938s] [ 23%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lidar_object_detection_ros2/msg/detail/dds_fastrtps/pose2_d__type_support.cpp.o[0m
+[14.826s] [ 25%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lidar_object_detection_ros2/msg/detail/dds_fastrtps/l_shape__type_support.cpp.o[0m
+[15.161s] [ 26%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lidar_object_detection_ros2/msg/object__type_support.cpp.o[0m
+[15.219s] [ 28%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lidar_object_detection_ros2/msg/detail/l_shape__type_support.cpp.o[0m
+[16.258s] [ 30%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lidar_object_detection_ros2/msg/detail/dds_fastrtps/object__type_support.cpp.o[0m
+[16.680s] [ 31%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lidar_object_detection_ros2/msg/objects_array__type_support.cpp.o[0m
+[16.749s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lidar_object_detection_ros2/msg/detail/object__type_support.cpp.o[0m
+[17.115s] [ 34%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lidar_object_detection_ros2/msg/detail/objects_array__type_support.cpp.o[0m
+[18.227s] [ 36%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lidar_object_detection_ros2/msg/scan_clusters__type_support.cpp.o[0m
+[18.358s] [ 38%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lidar_object_detection_ros2/msg/detail/scan_clusters__type_support.cpp.o[0m
+[18.902s] [ 39%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lidar_object_detection_ros2/msg/detail/dds_fastrtps/objects_array__type_support.cpp.o[0m
+[19.231s] [ 41%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[19.901s] [ 42%] [32m[1mLinking CXX shared library liblidar_object_detection_ros2__rosidl_typesupport_cpp.so[0m
+[20.127s] [ 42%] Built target lidar_object_detection_ros2__rosidl_typesupport_cpp
+[20.181s] [ 44%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[20.560s] [ 46%] [32m[1mLinking CXX shared library liblidar_object_detection_ros2__rosidl_typesupport_introspection_cpp.so[0m
+[20.986s] [ 46%] Built target lidar_object_detection_ros2__rosidl_typesupport_introspection_cpp
+[21.091s] [ 47%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lidar_object_detection_ros2/msg/detail/dds_fastrtps/scan_clusters__type_support.cpp.o[0m
+[21.191s] [35m[1mScanning dependencies of target lidar_object_detection_ros2__rosidl_typesupport_introspection_c[0m
+[21.279s] [ 49%] [32mBuilding C object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/pose2_d__type_support.c.o[0m
+[21.475s] [ 50%] [32mBuilding C object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/l_shape__type_support.c.o[0m
+[21.618s] [ 52%] [32mBuilding C object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/object__type_support.c.o[0m
+[21.725s] [35m[1mScanning dependencies of target lidar_object_detection_ros2__rosidl_typesupport_c[0m
+[21.805s] [ 53%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/lidar_object_detection_ros2/msg/pose2_d__type_support.cpp.o[0m
+[21.808s] [ 55%] [32mBuilding C object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/objects_array__type_support.c.o[0m
+[21.854s] [ 57%] [32mBuilding C object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lidar_object_detection_ros2/msg/detail/scan_clusters__type_support.c.o[0m
+[21.983s] [ 58%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/lidar_object_detection_ros2/msg/l_shape__type_support.cpp.o[0m
+[22.021s] [ 60%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/lidar_object_detection_ros2/msg/object__type_support.cpp.o[0m
+[22.108s] [ 61%] [32m[1mLinking C shared library liblidar_object_detection_ros2__rosidl_typesupport_introspection_c.so[0m
+[22.246s] [ 63%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/lidar_object_detection_ros2/msg/scan_clusters__type_support.cpp.o[0m
+[22.302s] [ 65%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/lidar_object_detection_ros2/msg/objects_array__type_support.cpp.o[0m
+[22.339s] [ 65%] Built target lidar_object_detection_ros2__rosidl_typesupport_introspection_c
+[22.501s] [ 66%] [32m[1mLinking CXX shared library liblidar_object_detection_ros2__rosidl_typesupport_c.so[0m
+[22.683s] [ 66%] Built target lidar_object_detection_ros2__rosidl_typesupport_c
+[23.765s] [ 68%] [32m[1mLinking CXX shared library liblidar_object_detection_ros2__rosidl_typesupport_fastrtps_cpp.so[0m
+[24.126s] [ 68%] Built target lidar_object_detection_ros2__rosidl_typesupport_fastrtps_cpp
+[24.175s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[25.527s] [35m[1mScanning dependencies of target lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c[0m
+[25.640s] [ 71%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/pose2_d__type_support_c.cpp.o[0m
+[25.642s] [ 73%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/l_shape__type_support_c.cpp.o[0m
+[25.647s] [ 74%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/objects_array__type_support_c.cpp.o[0m
+[25.653s] [ 76%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/object__type_support_c.cpp.o[0m
+[27.559s] [ 77%] [32mBuilding CXX object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lidar_object_detection_ros2/msg/detail/scan_clusters__type_support_c.cpp.o[0m
+[29.215s] [ 79%] [32m[1mLinking CXX shared library liblidar_object_detection_ros2__rosidl_typesupport_fastrtps_c.so[0m
+[29.556s] [ 79%] Built target lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c
+[29.599s] [35m[1mScanning dependencies of target lidar_object_detection_ros2[0m
+[29.644s] [ 79%] Built target lidar_object_detection_ros2
+[29.691s] [35m[1mScanning dependencies of target lidar_object_detection_ros2__py[0m
+[29.739s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[32.201s] [ 80%] Built target lidar_object_detection_ros2__py
+[32.252s] [35m[1mScanning dependencies of target lidar_object_detection_ros2__python[0m
+[32.431s] [ 82%] [32mBuilding C object CMakeFiles/lidar_object_detection_ros2__python.dir/rosidl_generator_py/lidar_object_detection_ros2/msg/_pose2_d_s.c.o[0m
+[32.449s] [ 84%] [32mBuilding C object CMakeFiles/lidar_object_detection_ros2__python.dir/rosidl_generator_py/lidar_object_detection_ros2/msg/_l_shape_s.c.o[0m
+[32.453s] [ 85%] [32mBuilding C object CMakeFiles/lidar_object_detection_ros2__python.dir/rosidl_generator_py/lidar_object_detection_ros2/msg/_objects_array_s.c.o[0m
+[32.468s] [ 87%] [32mBuilding C object CMakeFiles/lidar_object_detection_ros2__python.dir/rosidl_generator_py/lidar_object_detection_ros2/msg/_object_s.c.o[0m
+[32.952s] [ 88%] [32mBuilding C object CMakeFiles/lidar_object_detection_ros2__python.dir/rosidl_generator_py/lidar_object_detection_ros2/msg/_scan_clusters_s.c.o[0m
+[33.497s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/lidar_object_detection_ros2/liblidar_object_detection_ros2__python.so[0m
+[33.707s] [ 90%] Built target lidar_object_detection_ros2__python
+[33.751s] [35m[1mScanning dependencies of target lidar_object_detection_ros2__rosidl_typesupport_c__pyext[0m
+[33.752s] [35m[1mScanning dependencies of target lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c__pyext[0m
+[33.753s] [35m[1mScanning dependencies of target lidar_object_detection_ros2__rosidl_typesupport_introspection_c__pyext[0m
+[33.844s] [ 93%] [32mBuilding C object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lidar_object_detection_ros2/_lidar_object_detection_ros2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[33.845s] [ 93%] [32mBuilding C object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lidar_object_detection_ros2/_lidar_object_detection_ros2_s.ep.rosidl_typesupport_c.c.o[0m
+[33.880s] [ 95%] [32mBuilding C object CMakeFiles/lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lidar_object_detection_ros2/_lidar_object_detection_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[34.297s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/lidar_object_detection_ros2/lidar_object_detection_ros2_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[34.354s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/lidar_object_detection_ros2/lidar_object_detection_ros2_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[34.378s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/lidar_object_detection_ros2/lidar_object_detection_ros2_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[34.501s] [100%] Built target lidar_object_detection_ros2__rosidl_typesupport_c__pyext
+[34.550s] [100%] Built target lidar_object_detection_ros2__rosidl_typesupport_introspection_c__pyext
+[34.670s] [100%] Built target lidar_object_detection_ros2__rosidl_typesupport_fastrtps_c__pyext
+[34.732s] Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2 -- -j4 -l4
+[34.805s] Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2
+[34.845s] -- Install configuration: ""
+[34.847s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/ament_index/resource_index/rosidl_interfaces/lidar_object_detection_ros2
+[34.848s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2
+[34.849s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg
+[34.850s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/rosidl_generator_c__visibility_control.h
+[34.851s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/objects_array.h
+[34.851s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/object.h
+[34.851s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/pose2_d.h
+[34.852s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/scan_clusters.h
+[34.852s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail
+[34.854s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__type_support.h
+[34.854s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__type_support.h
+[34.855s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__functions.h
+[34.855s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__functions.h
+[34.856s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__type_support.h
+[34.856s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__functions.h
+[34.856s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__struct.h
+[34.857s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__functions.h
+[34.857s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__struct.h
+[34.858s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__functions.h
+[34.859s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__functions.c
+[34.859s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__functions.c
+[34.860s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__functions.c
+[34.860s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__struct.h
+[34.861s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__struct.h
+[34.861s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__struct.h
+[34.862s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__type_support.h
+[34.862s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__type_support.h
+[34.863s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__functions.c
+[34.863s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__functions.c
+[34.864s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/l_shape.h
+[34.865s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/environment/library_path.sh
+[34.867s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/environment/library_path.dsv
+[34.867s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_generator_c.so
+[34.872s] -- Set runtime path of "/home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_generator_c.so" to ""
+[34.872s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2
+[34.873s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg
+[34.873s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[34.874s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail
+[34.874s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__rosidl_typesupport_fastrtps_c.h
+[34.874s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[34.875s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[34.875s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__rosidl_typesupport_fastrtps_c.h
+[34.875s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__rosidl_typesupport_fastrtps_c.h
+[34.876s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_typesupport_fastrtps_c.so
+[34.878s] -- Set runtime path of "/home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_typesupport_fastrtps_c.so" to ""
+[34.879s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2
+[34.879s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg
+[34.880s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail
+[34.880s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__rosidl_typesupport_fastrtps_cpp.hpp
+[34.880s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__rosidl_typesupport_fastrtps_cpp.hpp
+[34.881s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__rosidl_typesupport_fastrtps_cpp.hpp
+[34.882s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[34.882s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[34.882s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/dds_fastrtps
+[34.883s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[34.883s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_typesupport_fastrtps_cpp.so
+[34.887s] -- Set runtime path of "/home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[34.895s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2
+[34.896s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg
+[34.897s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[34.897s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail
+[34.897s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[34.898s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__type_support.c
+[34.898s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__type_support.c
+[34.899s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__rosidl_typesupport_introspection_c.h
+[34.899s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__rosidl_typesupport_introspection_c.h
+[34.899s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__rosidl_typesupport_introspection_c.h
+[34.900s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__type_support.c
+[34.900s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__rosidl_typesupport_introspection_c.h
+[34.900s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__type_support.c
+[34.900s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__type_support.c
+[34.901s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_typesupport_introspection_c.so
+[34.901s] -- Set runtime path of "/home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_typesupport_introspection_c.so" to ""
+[34.901s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_typesupport_c.so
+[34.902s] -- Set runtime path of "/home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_typesupport_c.so" to ""
+[34.903s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2
+[34.904s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg
+[34.904s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/object.hpp
+[34.905s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/pose2_d.hpp
+[34.906s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/l_shape.hpp
+[34.906s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/objects_array.hpp
+[34.907s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail
+[34.907s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__traits.hpp
+[34.908s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__traits.hpp
+[34.908s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__traits.hpp
+[34.908s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__struct.hpp
+[34.911s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__builder.hpp
+[34.911s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__builder.hpp
+[34.912s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__traits.hpp
+[34.912s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__builder.hpp
+[34.913s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__struct.hpp
+[34.914s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__type_support.hpp
+[34.914s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__type_support.hpp
+[34.915s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__struct.hpp
+[34.915s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__traits.hpp
+[34.915s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__builder.hpp
+[34.916s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__struct.hpp
+[34.916s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__type_support.hpp
+[34.916s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__builder.hpp
+[34.917s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__type_support.hpp
+[34.918s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__type_support.hpp
+[34.918s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__struct.hpp
+[34.919s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/scan_clusters.hpp
+[34.919s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/rosidl_generator_cpp__visibility_control.hpp
+[34.921s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2
+[34.921s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg
+[34.922s] -- Up-to-date: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail
+[34.922s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[34.923s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__rosidl_typesupport_introspection_cpp.hpp
+[34.923s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__type_support.cpp
+[34.923s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__type_support.cpp
+[34.924s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/l_shape__rosidl_typesupport_introspection_cpp.hpp
+[34.925s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/objects_array__rosidl_typesupport_introspection_cpp.hpp
+[34.925s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__type_support.cpp
+[34.926s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/object__type_support.cpp
+[34.927s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/scan_clusters__type_support.cpp
+[34.927s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/include/lidar_object_detection_ros2/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[34.928s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_typesupport_introspection_cpp.so
+[34.932s] -- Set runtime path of "/home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_typesupport_introspection_cpp.so" to ""
+[34.933s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_typesupport_cpp.so
+[34.935s] -- Set runtime path of "/home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__rosidl_typesupport_cpp.so" to ""
+[34.938s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/environment/pythonpath.sh
+[34.938s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/environment/pythonpath.dsv
+[34.940s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/__init__.py
+[35.076s] Compiling '/home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/__init__.py'...
+[35.095s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg
+[35.095s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_object_s.c
+[35.097s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_pose2_d_s.c
+[35.098s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_object.py
+[35.098s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_objects_array.py
+[35.099s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_pose2_d.py
+[35.099s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_scan_clusters_s.c
+[35.099s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_objects_array_s.c
+[35.100s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_l_shape_s.c
+[35.101s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_scan_clusters.py
+[35.102s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/_l_shape.py
+[35.103s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/msg/__init__.py
+[35.105s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/lidar_object_detection_ros2_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[35.108s] -- Set runtime path of "/home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/lidar_object_detection_ros2_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[35.109s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/lidar_object_detection_ros2_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[35.113s] -- Set runtime path of "/home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/lidar_object_detection_ros2_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[35.114s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/lidar_object_detection_ros2_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[35.118s] -- Set runtime path of "/home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/python3.8/site-packages/lidar_object_detection_ros2/lidar_object_detection_ros2_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[35.118s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__python.so
+[35.120s] -- Set runtime path of "/home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/liblidar_object_detection_ros2__python.so" to ""
+[35.121s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/Pose2D.idl
+[35.122s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/LShape.idl
+[35.123s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/Object.idl
+[35.123s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/ObjectsArray.idl
+[35.124s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/ScanClusters.idl
+[35.125s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/Pose2D.msg
+[35.126s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/LShape.msg
+[35.126s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/Object.msg
+[35.127s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/ObjectsArray.msg
+[35.128s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/msg/ScanClusters.msg
+[35.129s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/lidar_object_detection_ros2/lidar_object_detection.py
+[35.129s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/lib/lidar_object_detection_ros2/lod_visualization.py
+[35.130s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2//launch
+[35.131s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2//launch/lod_launch.py
+[35.132s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/ament_index/resource_index/package_run_dependencies/lidar_object_detection_ros2
+[35.132s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/ament_index/resource_index/parent_prefix_path/lidar_object_detection_ros2
+[35.133s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/environment/ament_prefix_path.sh
+[35.134s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/environment/ament_prefix_path.dsv
+[35.135s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/environment/path.sh
+[35.136s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/environment/path.dsv
+[35.136s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/local_setup.bash
+[35.137s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/local_setup.sh
+[35.138s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/local_setup.zsh
+[35.139s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/local_setup.dsv
+[35.139s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/package.dsv
+[35.140s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/ament_index/resource_index/packages/lidar_object_detection_ros2
+[35.142s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_generator_cExport.cmake
+[35.143s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_generator_cExport-noconfig.cmake
+[35.144s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_typesupport_introspection_cExport.cmake
+[35.145s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[35.146s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_typesupport_cExport.cmake
+[35.146s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_typesupport_cExport-noconfig.cmake
+[35.147s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_generator_cppExport.cmake
+[35.148s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_typesupport_introspection_cppExport.cmake
+[35.149s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[35.150s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_typesupport_cppExport.cmake
+[35.152s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2__rosidl_typesupport_cppExport-noconfig.cmake
+[35.153s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/rosidl_cmake-extras.cmake
+[35.153s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.154s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/ament_cmake_export_libraries-extras.cmake
+[35.154s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/ament_cmake_export_targets-extras.cmake
+[35.155s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.156s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[35.156s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[35.157s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2Config.cmake
+[35.158s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/cmake/lidar_object_detection_ros2Config-version.cmake
+[35.158s] -- Installing: /home/f1tenth/f1tenth_mrc_ws/install/lidar_object_detection_ros2/share/lidar_object_detection_ros2/package.xml
+[35.172s] Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_mrc_ws/build/lidar_object_detection_ros2

@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from lidar_object_detection_ros2/msg/Pose2D.msg
+// generated code does not contain a copyright notice
+
+
+module lidar_object_detection_ros2 {
+  module msg {
+    struct Pose2D {
+      float x;
+
+      float y;
+    };
+  };
+};

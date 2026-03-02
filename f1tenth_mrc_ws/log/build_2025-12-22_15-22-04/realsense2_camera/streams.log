@@ -1,0 +1,56 @@
+[0.153s] Invoking command in '/home/f1tenth/f1tenth_mrc_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/f1tenth/f1tenth_mrc_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/f1tenth/f1tenth_mrc_ws/install/realsense2_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth/f1tenth_mrc_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/f1tenth/f1tenth_mrc_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/f1tenth/f1tenth_mrc_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_mrc_ws/install/realsense2_camera
+[0.252s] -- Create Release Build.
+[0.255s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.361s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.294s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[1.377s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.392s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.975s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.080s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[2.629s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[2.788s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.792s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.568s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[3.816s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[3.983s] -- Found realsense2_camera_msgs: 4.56.4 (/home/f1tenth/f1tenth_mrc_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)
+[4.572s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[4.606s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[4.835s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[5.450s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[5.673s] -- Build for ROS2 Foxy
+[5.680s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[5.683s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.695s] -- Found ament_cmake_pytest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_pytest/cmake)
+[23.244s] -- rs_device_info:
+[23.245s] -- No device detected. Is it plugged in?
+[23.245s] 
+[23.523s] -- Configuring done
+[23.550s] CMake Error at CMakeLists.txt:236 (add_library):
+[23.550s]   Target "realsense2_camera" links to target "cv_bridge::cv_bridge" but the
+[23.550s]   target was not found.  Perhaps a find_package() call is missing for an
+[23.551s]   IMPORTED target, or an ALIAS target is missing?
+[23.551s] 
+[23.551s] 
+[23.552s] CMake Error at CMakeLists.txt:236 (add_library):
+[23.552s]   Target "realsense2_camera" links to target
+[23.553s]   "image_transport::image_transport" but the target was not found.  Perhaps a
+[23.553s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[23.553s]   is missing?
+[23.553s] 
+[23.554s] 
+[23.554s] CMake Error at CMakeLists.txt:236 (add_library):
+[23.554s]   Target "realsense2_camera" links to target "rclcpp_components::component"
+[23.554s]   but the target was not found.  Perhaps a find_package() call is missing for
+[23.555s]   an IMPORTED target, or an ALIAS target is missing?
+[23.555s] 
+[23.555s] 
+[23.555s] CMake Error at CMakeLists.txt:236 (add_library):
+[23.555s]   Target "realsense2_camera" links to target
+[23.556s]   "sensor_msgs::sensor_msgs_library" but the target was not found.  Perhaps a
+[23.556s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[23.556s]   is missing?
+[23.557s] 
+[23.557s] 
+[23.660s] -- Generating done
+[23.671s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[23.710s] Invoked command in '/home/f1tenth/f1tenth_mrc_ws/build/realsense2_camera' returned '1': AMENT_PREFIX_PATH=/home/f1tenth/f1tenth_mrc_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/f1tenth/f1tenth_mrc_ws/install/realsense2_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth/f1tenth_mrc_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/f1tenth/f1tenth_mrc_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/f1tenth/f1tenth_mrc_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_mrc_ws/install/realsense2_camera

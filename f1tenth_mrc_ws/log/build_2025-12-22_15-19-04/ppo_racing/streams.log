@@ -1,0 +1,90 @@
+[4.429s] Invoking command in '/home/f1tenth/f1tenth_mrc_ws/src/ppo_racing': PYTHONPATH=/home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ppo_racing build --build-base /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build install --record /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/install.log --install-scripts $base/lib/ppo_racing --single-version-externally-managed install_data
+[5.795s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.795s]   warnings.warn(
+[5.990s] running egg_info
+[5.992s] creating ../../build/ppo_racing/ppo_racing.egg-info
+[5.993s] writing ../../build/ppo_racing/ppo_racing.egg-info/PKG-INFO
+[5.994s] writing dependency_links to ../../build/ppo_racing/ppo_racing.egg-info/dependency_links.txt
+[5.994s] writing entry points to ../../build/ppo_racing/ppo_racing.egg-info/entry_points.txt
+[5.995s] writing requirements to ../../build/ppo_racing/ppo_racing.egg-info/requires.txt
+[5.996s] writing top-level names to ../../build/ppo_racing/ppo_racing.egg-info/top_level.txt
+[6.002s] writing manifest file '../../build/ppo_racing/ppo_racing.egg-info/SOURCES.txt'
+[6.025s] reading manifest file '../../build/ppo_racing/ppo_racing.egg-info/SOURCES.txt'
+[6.027s] writing manifest file '../../build/ppo_racing/ppo_racing.egg-info/SOURCES.txt'
+[6.028s] running build
+[6.032s] running build_py
+[6.040s] creating /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build
+[6.040s] creating /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib
+[6.041s] creating /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.041s] copying ppo_racing/pendulum_train.py -> /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.046s] copying ppo_racing/test_gym.py -> /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.055s] copying ppo_racing/multi_agent_policy_node.py -> /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.056s] copying ppo_racing/test_logger.py -> /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.056s] copying ppo_racing/ppo_agent.py -> /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.060s] copying ppo_racing/custom_rendering.py -> /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.063s] copying ppo_racing/opp_pose_to_odom.py -> /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.073s] copying ppo_racing/env_wrapper.py -> /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.074s] copying ppo_racing/policy_node_local_obs.py -> /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.075s] copying ppo_racing/train.py -> /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.078s] copying ppo_racing/pendulum _sb3_train.py -> /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.085s] copying ppo_racing/utils.py -> /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.085s] copying ppo_racing/__init__.py -> /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.086s] copying ppo_racing/policy_node.py -> /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.088s] copying ppo_racing/multi_env_train.py -> /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.092s] copying ppo_racing/reward_node.py -> /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.115s] copying ppo_racing/multi_agent_train.py -> /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.116s] copying ppo_racing/custom_policy.py -> /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing
+[6.116s] running install
+[6.118s] running install_lib
+[6.125s] creating /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.127s] copying /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing/pendulum_train.py -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.131s] copying /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing/test_gym.py -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.132s] copying /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing/multi_agent_policy_node.py -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.133s] copying /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing/test_logger.py -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.135s] copying /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing/ppo_agent.py -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.136s] copying /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing/custom_rendering.py -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.138s] copying /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing/opp_pose_to_odom.py -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.147s] copying /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing/env_wrapper.py -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.159s] copying /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing/policy_node_local_obs.py -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.163s] copying /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing/train.py -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.168s] copying /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing/pendulum _sb3_train.py -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.169s] copying /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing/utils.py -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.175s] copying /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing/__init__.py -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.175s] copying /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing/policy_node.py -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.180s] copying /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing/multi_env_train.py -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.183s] copying /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing/reward_node.py -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.184s] copying /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing/multi_agent_train.py -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.194s] copying /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build/lib/ppo_racing/custom_policy.py -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[6.197s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/pendulum_train.py to pendulum_train.cpython-38.pyc
+[6.201s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/test_gym.py to test_gym.cpython-38.pyc
+[6.204s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/multi_agent_policy_node.py to multi_agent_policy_node.cpython-38.pyc
+[6.214s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/test_logger.py to test_logger.cpython-38.pyc
+[6.223s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/ppo_agent.py to ppo_agent.cpython-38.pyc
+[6.239s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/custom_rendering.py to custom_rendering.cpython-38.pyc
+[6.242s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/opp_pose_to_odom.py to opp_pose_to_odom.cpython-38.pyc
+[6.248s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/env_wrapper.py to env_wrapper.cpython-38.pyc
+[6.252s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/policy_node_local_obs.py to policy_node_local_obs.cpython-38.pyc
+[6.262s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/train.py to train.cpython-38.pyc
+[6.271s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/pendulum _sb3_train.py to pendulum _sb3_train.cpython-38.pyc
+[6.274s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/utils.py to utils.cpython-38.pyc
+[6.278s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/__init__.py to __init__.cpython-38.pyc
+[6.280s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/policy_node.py to policy_node.cpython-38.pyc
+[6.284s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/multi_env_train.py to multi_env_train.cpython-38.pyc
+[6.295s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/reward_node.py to reward_node.cpython-38.pyc
+[6.302s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/multi_agent_train.py to multi_agent_train.cpython-38.pyc
+[6.309s] byte-compiling /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/custom_policy.py to custom_policy.cpython-38.pyc
+[6.313s] running install_data
+[6.314s] creating /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/share/ament_index
+[6.315s] creating /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/share/ament_index/resource_index
+[6.317s] creating /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/share/ament_index/resource_index/packages
+[6.318s] copying resource/ppo_racing -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/share/ament_index/resource_index/packages
+[6.321s] copying package.xml -> /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/share/ppo_racing
+[6.323s] running install_egg_info
+[6.337s] Copying ../../build/ppo_racing/ppo_racing.egg-info to /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing-0.0.0-py3.8.egg-info
+[6.349s] running install_scripts
+[6.492s] Installing opp_pose_to_odom script to /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/ppo_racing
+[6.494s] Installing policy_node script to /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/ppo_racing
+[6.495s] Installing policy_node_local_obs script to /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/ppo_racing
+[6.496s] Installing test_logger script to /home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/ppo_racing
+[6.500s] writing list of installed files to '/home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/install.log'
+[7.870s] Invoked command in '/home/f1tenth/f1tenth_mrc_ws/src/ppo_racing' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_mrc_ws/install/ppo_racing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ppo_racing build --build-base /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/build install --record /home/f1tenth/f1tenth_mrc_ws/build/ppo_racing/install.log --install-scripts $base/lib/ppo_racing --single-version-externally-managed install_data

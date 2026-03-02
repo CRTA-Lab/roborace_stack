@@ -1,0 +1,5 @@
+[console_scripts]
+mpc_logger = waypoint_logger.mpc_logger:main
+optitrack_logger = waypoint_logger.optitrack_logger:main
+waypoint_logger = waypoint_logger.logger:main
+

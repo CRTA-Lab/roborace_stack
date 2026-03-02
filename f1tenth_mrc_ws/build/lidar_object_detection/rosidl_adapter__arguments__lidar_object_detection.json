@@ -1,0 +1,7 @@
+{
+  "package_name": "lidar_object_detection",
+  "non_idl_tuples": [
+    "/home/f1tenth/f1tenth_mrc_ws/src/robotx_lidar_pose_estimation/ros2-lidar-object-detection:msg/DetectedObject.msg",
+    "/home/f1tenth/f1tenth_mrc_ws/src/robotx_lidar_pose_estimation/ros2-lidar-object-detection:msg/DetectedObjectArray.msg"
+  ]
+}
